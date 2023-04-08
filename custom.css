@@ -2,22 +2,19 @@
 
 body, html {
     height: 100%;
-    background: rgb(0, 0, 0);
+    background: rgb(75, 75, 75);
+    /* background: rgb(0, 0, 0); */
 }
 
 
 .hero-image {
-  width: 900px;
-  height: 600px;
+  height: 50vh;
   align-items: center;
   background-position: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -43,19 +40,31 @@ body, html {
   color:rgb(255, 255, 255)!important;
 }
 .navbar-text {
-  color:rgb(255, 136, 0)!important;
+  color:rgb(88, 236, 255)!important;
 }
 .cardsCSS{
   justify-content: center;
   justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .cardTitle{
-  color: rgb(255, 75, 0);
+  color: rgb(255, 189, 119);
 }
 .cardText{
   color: rgb(150, 150, 150);
 }
 .importantText{
   color: rgb(255, 149, 0);
+}
+.contactCSS{
+  background-color: black;
+  color: rgb(255, 0, 0);
+  justify-content: center;
+  text-align: center;
+}
+.contactImg{
+  background-color: rebeccapurple;
 }
