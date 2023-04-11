@@ -115,3 +115,22 @@ img {
   margin-top: 1%;
   margin-bottom: 1%;
 }
+
+.mePic{
+  margin-right: 50vh;
+  margin-left: 30%;
+  margin-top: 3%;
+  width: 60vh;
+}
+.meText{
+  color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+.meContact{
+  color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
