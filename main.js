@@ -1,9 +1,14 @@
 const translations = {
     En:[
+        //Nav bar
+        "Home",
+        "Projects",
+        "About Me",
+
         //Select language button
         "English",
         "Dutch",
-
+        
         //Title
         "Welcome to the ",
         "Portfolio",
@@ -21,6 +26,11 @@ const translations = {
         "Recent Projects"
     ],
     Nl:[
+        //Nav bar
+        "Huis",
+        "Projecten",
+        "Over mij",
+        
         //Select language button
         "Engels",
         "Nederlands",
@@ -42,6 +52,11 @@ const translations = {
         "Recente Projecten"
     ],
     Pi:[
+        //Nav bar
+        "Back to ship",
+        "Booty",
+        "'Bout Captain",
+
         //Select language button
         "Land Speech",
         "Cursed Speech",
@@ -60,11 +75,14 @@ const translations = {
         "Godot",
         "",
 
-        "Yarr"
+        "Recent Plunder"
     ]
 }
 
 //All the ID's for the text
+let navHome = document.getElementById("navHome")
+let navProj = document.getElementById("navProj")
+let navMe = document.getElementById("navMe")
 let sel1= document.getElementById("sel1")
 let sel2 = document.getElementById("sel2")
 let ti1 = document.getElementById("ti1")
@@ -89,30 +107,39 @@ languageSelectOp.addEventListener("change",(event) => {
 //Sets the language based on the language string
 const setLanguage = (language) => {
     //All the texts
-    let textAr = [sel1,sel2,ti1,ti2,ti3,ti4,ti4p5,ti5,ti6,ti7,ti8,ti9,recProj]
+    let textAr = [navHome,navProj,navMe,sel1,sel2,ti1,ti2,ti3,ti4,ti4p5,ti5,ti6,ti7,ti8,ti9,recProj]
     localStorage.setItem('language', language)
     
-    //Dutch
-    if(language == "Nl"){
-        console.log("Set language to " + language);
-        for(i = 0; i < textAr.length; i++){
-            if(textAr[i] != null){
-                textAr[i].innerText = translations.Nl[i];
-            }
-        }
-    }
     //English
-    else if(language == "En"){
+    if(language == "En"){
         console.log("Set language to " + language);
+        if(img != null){
+            img.style="background-image: url('img/Misc/MagnumOpus.png');";
+        }
         for(i = 0; i < textAr.length; i++){
             if(textAr[i] != null){
                 textAr[i].innerText = translations.En[i];
             }
         }
     }
+    //Dutch
+    else if(language == "Nl"){
+        console.log("Set language to " + language);
+        if(img != null){
+            img.style="background-image: url('img/Misc/MagnumOpus.png');";
+        }
+        for(i = 0; i < textAr.length; i++){
+            if(textAr[i] != null){
+                textAr[i].innerText = translations.Nl[i];
+            }
+        }
+    }
     //Pirate
     else if(language == "Pi"){
         console.log("Yarrr");
+        if(img != null){
+            img.style="background-image: url('img/Pirate/Ship1.png');";
+        }
         for(i = 0; i < textAr.length; i++){
             if(textAr[i] != null){
                 textAr[i].innerText = translations.Pi[i];
