@@ -23,16 +23,16 @@
           <a class="nav-link active navbar-text" aria-current="page" href="index.html"id="navHome">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar-text" href="Projects.html"id="navProj">Projects</a>
+          <a class="nav-link navbar-text" href="Projects.html" id="navProj">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link navbar-text" href="AboutMe.html"id="navMe"> About Me</a>
       </ul>
     </div>
     <div class = "langText">
-      <select name =""id="">
-        <option value="En" id="sel1">English</option>
-        <option value="Nl" id="sel2">Dutch</option>
+      <select name =""id="select">
+        <option value="En" id="languageSelectEn">English</option>
+        <option value="Nl" id="languageSelectNl">Dutch</option>
         <option value="Pi">Pirate</option>
       </select>
     </div>
@@ -47,69 +47,29 @@
   <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
     <div class="hero-text">
         <h2> <span class="hero-Text-2" >
-          <span id="ti1">Welcome to the</span> 
-          <span class="importantText" id="ti2">Portfolio</span>
-          <span id="ti3"> site of</span> 
-          <span class="importantText" id="ti4">Rudo Verschuren</span>
-          <span class ="hero-Text-2"id="ti4.5">!</span>
+          <span id="Title1">Welcome to the</span> 
+          <span class="importantText" id="Title2">Portfolio</span>
+          <span id="Title3"> site of</span> 
+          <span class="importantText" id="Title4">Rudo Verschuren</span>
+          <span class ="hero-Text-2"id="Title5">!</span>
         </h2>
         <p><span class="hero-Text-2">
-          <span id="ti5">I make games using the </span>
-          <span class="hero-Text-3"id="ti6">Unity Engine</span>
-          <span id="ti7"> , and am currently learning </span>
-          <span class="hero-Text-3" id="ti8">Godot</span>
-          <span id="ti9"></span>
+          <span id="TitleDesc1">I make games using the </span>
+          <span class="hero-Text-3"id="TitleDesc2">Unity Engine</span>
+          <span id="TitleDesc3"> , and am currently learning </span>
+          <span class="hero-Text-3" id="TitleDesc4">Godot</span>
+          <span id="TitleDesc5"></span>
         </p>
     </div>
   </div>
 </div>
 
-<h1 style="text-align: center; color: lightblue;">My finished Projects</h1>
+<h1 style="text-align: center; color: lightblue;" id="HomeRecentProj">My finished Projects</h1>
 <!-- Hero -->
-<div class="card-group cardsCSS">
-  <!-- Tower Defence -->
-  <div class="card">
-    <img src="img/2023/code_armada/CA-Main.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <div class ="card-title">
-        <h5 class="cardTitle">Code Armada: Crash Guardians</h5>
-      </div>
-      <div class = "card-text">
-        <p class="cardText"><span class="importantText">Code Armada: Crash Guardians</span> is a Tower Defense Game, where the main objective is to survive as many waves as you can!</p>
-      </div>
-      <a href="Projects/2023/CodeArmada.html" class="btn btn-info">More Info</a>
-    </div>
-  </div>
-  <!-- Race Game -->
-  <div class="card">
-    <img src="img/2023/race/RaceGame.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <div class ="card-title">
-        <h5 class="cardTitle">Race Game</h5>
-      </div>
-      <div class = "card-text">
-        <p class="cardText"><span class="importantText">The Race Game</span> was the third game I made in school. It had a shop , achievements , upgrades and much more.</p>
-      </div>
-      <a href="Projects/2023/Race.html" class="btn btn-info">More Info</a>
-    </div>
-  </div>
-  <!-- Tank Game -->
-  <div class="card">
-    <img src="img/2022/tank/Tank_3B.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <div class ="card-title">
-        <h5 class="cardTitle">Tank Game</h5>
-      </div>
-      <div class = "card-text">
-        <p class="cardText"><span class="importantText">The Tank Game</span> was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.</p>
-      </div>
-      <a href="Projects/2022/Tank.html" class="btn btn-info">More Info</a>
-    </div>
-  </div>
-  <!-- End of Line -->
+<div id="RecentProj">
 </div>
 <div class="d-grid gap-2 col-6 mx-auto">
-  <a class="btn btn-dark btn-lg" style="margin-top: 1%;" href="Projects.html" role="button">See all projects</a>
+  <a class="btn btn-dark btn-lg" style="margin-top: 1%;" href="Projects.html" role="button" id = "SeeProjects">See all projects</a>
 </div>
 <img src="img/Misc/guh.png" class="guh" alt="...">
 
