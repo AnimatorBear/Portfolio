@@ -8,25 +8,24 @@ class gameCard{
         this.order = newOrder
     }
     name = "TEMPNAME"
-    image = "img/Misc/guh.png"
+    image = "Images/Misc/guh.png"
     desc = "TEMPDESC aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     link = "Projects/Template.html"
     id = "Test"
     order = -1
 }
 
-
 //English Translation
 const translationEn = {
 
-    //Every page
+    // -- Every page
     navHome: "Home",
     navProj: "Projects",
     navMe: "About Me",
     languageSelectEn: "English",
     languageSelectNl: "Dutch",
 
-    //Home page
+    // -- Home page
     Title1: "Welcome to the ",
     Title2: "Portfolio",
     Title3: "site of ",
@@ -41,20 +40,54 @@ const translationEn = {
 
     HomeRecentProj: "Recent Projects",
     SeeProjects: "See all projects",
+
+    // -- Projects Page
+    proTitle: "All Projects (A-Z)",
+
+    // -- Game Cards
+    MoreInfo: "More info",
+
+    //Pong
+    PongTitle: "Pong Remake",
+    PongDesc: "The first game I ever made. It's simple pong but was updated to a smoother version 2 on December 15th 2023",
+
+    //Tank Game
+    TankTitle: "Tank Game",
+    TankDesc: "The Tank Game was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.",
+
+    //Race Game
+    RaceGameTitle: "Race Game",
+    RaceGameDesc: "The Race Game was the third game I made in school. It had a shop , achievements , upgrades and much more.",
+
+    //MineSweeper
+    MineTitle: "Minesweeper But Bad",
+    MineDesc: "Minesweeper is a remake of the original minesweeper, made since we werent allowed to play minesweeper in class.",
+
+    //Code Armada: Crash Guardians
+    CACGTitle: "Code Armada: Crash Guardians",
+    CACGDesc: "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
+
+    //Lighten Up
+    LightenTitle: "Lighten Up!",
+    LightenDesc: "A Global Game Jam game with the theme: \"Make me laugh\".",
+    
+    //StoryFixer
+    StoryTitle: "StoryFixer",
+    StoryDesc: "\"Once upon a time\" was the theme for the Noorderpoort Game Jam of 2024.",
 }
 
 
 //Nederlandse vertaling
 const translationNl = {
 
-    //Elke pagina
+    // -- Elke pagina
     navHome: "Huis",
     navProj: "Projecten",
     navMe: "Over Mij",
     languageSelectEn: "Engels",
     languageSelectNl: "Nederlands",
 
-    //Voorpagina
+    // -- Voorpagina
     Title1: "Welkom op de ",
     Title2: "Portfolio",
     Title3: "site van ",
@@ -69,20 +102,54 @@ const translationNl = {
 
     HomeRecentProj: "Recente projecten",
     SeeProjects: "Bekijk alle projecten",
+
+    // -- Projects Page
+    proTitle: "All Projects (A-Z)",
+
+    // -- Game Cards
+    MoreInfo: "Meer info",
+
+    //Pong
+    PongTitle: "Pong hermaakt",
+    PongDesc: "De eerste game die ik ooit heb gemaakt. Het is een simpele pong maar kreeg een v2 update op 15 december 2023",
+
+    //Tank Game
+    TankTitle: "Tank Game",
+    TankDesc: "De Tank Game was de tweede game die ik heb gemaakt. Het is een pvp game met meerdere soorten kogels dat je speelt op een device.",
+
+    //Race Game
+    RaceGameTitle: "Race Game",
+    RaceGameDesc: "De Race Game was de derde game die ik heb gemaakt. Het heeft achievements, Upgrades en een winkel.",
+    
+    //MineSweeper
+    MineTitle: "Minesweeper Maar Slecht",
+    MineDesc: "Minesweeper is net als de orginele Minesweeper, en was gemaakt omdat we geen Minesweeper mochten spelen in de klas.",
+
+    //Code Armada: Crash Guardians
+    CACGTitle: "Code Armada: Crash Guardians",
+    CACGDesc: "Code Armada: Crash Guardians is een Tower Defense Game, waarbij het doel is om zo veel mogelijk waves te overleven!",
+
+    //Lighten Up!
+    LightenTitle: "Lighten Up!",
+    LightenDesc: "Een Global Game Jam game met een thema van: \"Maak mij aan het lachen\".",
+
+    //StoryFixer
+    StoryTitle: "StoryFixer",
+    StoryDesc: "\"Once upon a time\" was de thema van de Noorderpoort Game Jam van 2024.",
 }
 
 
 //Pirates speech
 const translationPi = {
 
-    //All sails
+    // -- All sails
     navHome: "Back to Ship",
     navProj: "Booty",
     navMe: "'Bout Captain",
     languageSelectEn: "Land speech",
     languageSelectNl: "Other land speech",
 
-    //Ship's paper
+    // -- Ship's paper
     Title1: "Welcome aboard",
     Title2: "Rudo Verschuren's",
     Title3: "vessel",
@@ -97,6 +164,40 @@ const translationPi = {
 
     HomeRecentProj: "Newly plundered booty",
     SeeProjects: "Check all the booty",
+
+    // -- All Booty!
+    proTitle: "All Booty (A-Z)",
+
+    // -- Booty!
+    MoreInfo: "Fire in the hole!",
+
+    //Pong
+    PongTitle: "Boucin' shots fired again!",
+    PongDesc: "Captain's first loot! It may be cheap but it has been polished to be worth gold!",
+
+    //Cannon Game
+    TankTitle: "Cannon Game",
+    TankDesc: "Ye Cannon Game be 'bout sinkin other ships wit' ye guns! All happen on ye same ship.",
+
+    //Ship's Chase
+    RaceGameTitle: "Ship's Chase",
+    RaceGameDesc: "Ship's Chase was ye captain's third attack. T' has a shop, loot and upgradin' among other booty.",
+    
+    //MineSweeper
+    MineTitle: "Sweepin' explosives",
+    MineDesc: "Sweepin' explosives is a pirated minesweeper, plundered after Captain's Training didn't allow it to be used.",
+
+    //Defend Ye Vessel!
+    CACGTitle: "Defend Ye Vessel!",
+    CACGDesc: "Defend Ye Vessel be a defendin game, where ye gotta stay afloat till ye end!",
+
+    //Light 'em up!
+    LightenTitle: "Light 'em up!",
+    LightenDesc: "A Global Lootin' Race wit' laughter being the target!",
+
+    //Fixin' tales
+    StoryTitle: "Fixin' Tales",
+    StoryDesc: "\"Once upon a time\" was the ships target durin' the Captain's Training's Lootin' Race of 2024.",
 }
 
 
@@ -107,7 +208,11 @@ function createCard(cardInfo) {
 
     const cardImg = document.createElement('img');
     cardImg.setAttribute('class','card-img-top')
-    cardImg.src = cardInfo.image;
+    if(document.URL.includes("Projects.html")){
+        cardImg.src = "../" + cardInfo.image;
+    }else{
+        cardImg.src = cardInfo.image;
+    }
 
     const cardBody = document.createElement('div');
     cardBody.setAttribute('class','card-body')
@@ -133,7 +238,11 @@ function createCard(cardInfo) {
 
     const cardButton = document.createElement('a');
     cardButton.setAttribute('class','btn btn-info')
-    cardButton.href = cardInfo.link;
+    if(document.URL.includes("Projects.html")){
+        cardButton.href = "../" + cardInfo.link;
+    }else{
+        cardButton.href = cardInfo.link;
+    }
     cardButton.textContent = "More Info";
     cardButton.id = "MoreInfo"
 
@@ -151,41 +260,75 @@ function createCard(cardInfo) {
 let allCards = [
     new gameCard("Pong Remake",
     "Pong was the first game we made at school. It is simple , with most of the code not being written by me.",
-    "img/2022/pong/Pong_2.png",
+    "Images/2022/Pong/Pong_2.png",
     "Projects/2022/Pong.html",
     "Pong",
     0
 ),
     new gameCard("Tank Game",
     "The Tank Game was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.",
-    "img/2022/tank/Tank_3B.png",
+    "Images/2022/Tank/Tank_3B.png",
     "Projects/2022/Tank.html",
     "Tank",
     1
 ),
     new gameCard("Race Game",
     "The Race Game was the third game I made in school. It had a shop , achievements , upgrades and much more.",
-    "img/2023/race/RaceGame.png",
+    "Images/2023/Race/RaceGame.png",
     "Projects/2023/Race.html",
     "RaceGame",
     2
 ),
     new gameCard("Minesweeper but Bad",
     "Minesweeper is a remake of the original minesweeper, made since we werent allowed to play minesweeper in class.",
-    "img/2023/minesweeper/Mine_1.png",
+    "Images/2023/Mine/Mine_1.png",
     "Projects/2023/Mine.html",
     "Mine",
     3
 ),
     new gameCard("Code Armada: Crash Guardians",
     "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
-    "img/2023/code_armada/CA-Main.png",
+    "Images/2023/Code_Armada/CA-Main.png",
     "Projects/2023/CodeArmada.html",
     "CACG",
     4
 ),
+    new gameCard("Virus Runner",
+    "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
+    "Images/2023/VirusRunner/Vi-CardImage.png",
+    "Projects/Template.html",
+    "Virus",
+    5
+),
+    new gameCard("Lighten Up!",
+    "A global game jam game with the theme: \"Make me laugh\".",
+    "Images/2024/LightenUp/LU-CardImage.png",
+    "Projects/Template.html",
+    "Lighten",
+    6
+),
+    new gameCard("StoryFixer",
+    "\"Once upon a time\" was the theme for the second school game jam.",
+    "Images/2024/StoryFixer/SF-1.png",
+    "Projects/Template.html",
+    "Story",
+    7
+),
+    new gameCard("Real Time",
+    "A multiplayer Real Time Strategy game, made as a group project for school. ",
+    "Images/2024/RTS/RTS1.png",
+    "Projects/Template.html",
+    "Real",
+    8
+),
+new gameCard("Zandvoort Turbo Tour",
+    "A racing game made for a Deep Dive.",
+    "Images/2024/ZTT/ZTT-CardImage.png",
+    "Projects/Template.html",
+    "ZTT",
+    9
+),
 ];
-console.log(allCards);
 
 function placeCards(place,order){
     let currentCards = allCards.slice();
@@ -209,7 +352,6 @@ function placeCards(place,order){
     }
     //Recent
     //Alphabetical
-    console.log(currentCards)
     
     const cardContainer = place;
     if(cardContainer != null){
@@ -222,7 +364,8 @@ function placeCards(place,order){
             const card = createCard(currentCards[(i+ (down * 4)) - 1])
             currentContainer.appendChild(card);
             if(i == 4){
-                if(order == "Recent"){
+                if(order == "Recent" ){
+                    
                     down = 99999;
                 }else{
                     i = 0;
@@ -233,7 +376,6 @@ function placeCards(place,order){
                     currentContainer = cont;
                 }
             }
-            console.log(i+ (down * 4))
         }
     
     }
@@ -247,16 +389,23 @@ placeCards(document.getElementById('AbcProj'),"Abc");
 const languageSelectOp = document.getElementById("select");
     languageSelectOp.addEventListener("change",(event) => {
         localStorage.setItem('language',event.target.value)
-        setLanguageButBetter(event.target.value)
+        setLanguage(event.target.value)
     });
 
-const setLanguageButBetter = (language) => {
+const setLanguage = (language) => {
     let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5');
     let lang = translationEn;
-    if(language == "Nl"){
+    if(language == "Nederlands"){
+        console.log("I dare ye to turn ye speech to Pirate!")
+        localStorage.setItem('language',"Nederlands")
         lang = translationNl
-    }else if(language == "Pi"){
+    }else if(language == "Pirate" || language == "Pi" || language == "Yarr" || language == "One Piece"){
+        console.log("Yarr!")
+        localStorage.setItem('language',"Pirate")
         lang = translationPi
+    }else{
+        console.log("I dare ye to turn ye speech to Pirate!")
+        localStorage.setItem('language',"English")
     }
     for(let i = 0; i < allText.length; i++){
         for(let j = 0; j < Object.keys(lang).length; j++){
@@ -269,7 +418,7 @@ const setLanguageButBetter = (language) => {
 //Gets the language to set it after switching pages
 lan = localStorage.getItem('language')
 if(lan != null){
-    setLanguageButBetter(lan)
+    setLanguage(lan)
     //Sets specifically the select to be the language
     languageSelectOp.value = lan;
 
