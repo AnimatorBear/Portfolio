@@ -24,6 +24,7 @@ const translationEn = {
     navMe: "About Me",
     languageSelectEn: "English",
     languageSelectNl: "Dutch",
+    VideoNotSupported: "Your browser does not support the video tag.",
 
     // -- Home page
     Title1: "Welcome to the ",
@@ -43,6 +44,7 @@ const translationEn = {
 
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
+    ItchPage: "Itch.io page",
 
     // -- Game Cards
     MoreInfo: "More info",
@@ -86,6 +88,7 @@ const translationNl = {
     navMe: "Over Mij",
     languageSelectEn: "Engels",
     languageSelectNl: "Nederlands",
+    VideoNotSupported: "Kan video niet afspelen.",
 
     // -- Voorpagina
     Title1: "Welkom op de ",
@@ -105,6 +108,7 @@ const translationNl = {
 
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
+    ItchPage: "Itch.io pagina",
 
     // -- Game Cards
     MoreInfo: "Meer info",
@@ -148,6 +152,7 @@ const translationPi = {
     navMe: "'Bout Captain",
     languageSelectEn: "Land speech",
     languageSelectNl: "Other land speech",
+    VideoNotSupported: "Ye ship be too weak for these waters!",
 
     // -- Ship's paper
     Title1: "Welcome aboard",
@@ -167,6 +172,7 @@ const translationPi = {
 
     // -- All Booty!
     proTitle: "All Booty (A-Z)",
+    ItchPage: "Map to booty",
 
     // -- Booty!
     MoreInfo: "Fire in the hole!",
@@ -393,7 +399,7 @@ const languageSelectOp = document.getElementById("select");
     });
 
 const setLanguage = (language) => {
-    let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5');
+    let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
     let lang = translationEn;
     if(language == "Nederlands"){
         console.log("I dare ye to turn ye speech to Pirate!")
