@@ -76,6 +76,18 @@ const translationEn = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was the theme for the Noorderpoort Game Jam of 2024.",
+
+    // -- Project Pages
+
+    //Pong
+    PongTitle: "Pong",
+    PongChapter1: "V1",
+    PongText1: "Pong is cool fr",
+    PongText2: "Real",
+
+    PongChapter2: "V2",
+    PongText3: "Still Pong",
+    PongText4: "I agree idk",
 }
 
 
