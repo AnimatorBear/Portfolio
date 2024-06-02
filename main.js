@@ -278,7 +278,7 @@ function createCard(cardInfo) {
 let allCards = [
     new gameCard("Pong Remake",
     "Pong was the first game we made at school. It is simple , with most of the code not being written by me.",
-    "Images/2022/Pong/Pong_2.png",
+    "Images/2022/Pong/PongV2_Title.png",
     "Projects/2022/Pong.html",
     "Pong",
     0
