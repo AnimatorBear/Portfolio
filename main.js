@@ -80,14 +80,15 @@ const translationEn = {
     // -- Project Pages
 
     //Pong
-    PongTitle: "Pong",
+    PongName: "Pong",
     PongChapter1: "V1",
-    PongText1: "Pong is cool fr",
-    PongText2: "Real",
+    PongText1: "\"Pong is a two-dimensional sports game that simulates table tennis\"\n but I'm sure everyone knows that. One of the great qualities of this is that Pong is one of the easiest games to make. That is why Pong was the first project I ever made at school. The project only lasted a few weeks so there wasnt a lot of time to make the project better.",
+    PongText2: "Since I was new to programming I really avoided coding a bit for Pong. Most of the V1 code is made by school or by classmates. I mostly focussed on the art and left the programming for the second project we had: the Tank Game. Altho I wasn't focussing on it, I did get to know the basics of unity with this project.",
 
     PongChapter2: "V2",
-    PongText3: "Still Pong",
-    PongText4: "I agree idk",
+    PongText3: "Almost 250 days after the full completion of Pong I started to work on V2. V2 was finished in around 150 days and included a full code rework, redone art (as seen in the image) and it finally added options. Although the update didnt add much in gameplay I do really like what it did add in gameplay.",
+    PongText4: "The update allowed you to customize most things in the game. These settings allow the game to still be fun even if its basic. Playing with less pedal speed can really make the game a challenge and playing with a snail ball that goes twice as fast every time it hits something can be fun. There is also an option to add more balls into the game, allowing up to 10 pong balls in a game at once which can very quickly get chaotic.",
+    PongText5: "A main part of the update was the complete art rework. I don't think any V1 art still exists in V2. The art was remade to be consistant in size, and to just look smoother. This update also added particles to the game, making it feel more responsive if you score or if the ball bounces. It also added the ball waiting for a few seconds before moving at the start or on a score. A \"Christmas\" setting was also added, which changes all the art to be Christmas themed.",
 }
 
 
@@ -152,6 +153,19 @@ const translationNl = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was de thema van de Noorderpoort Game Jam van 2024.",
+
+    // -- Project Paginas
+
+    //Pong
+    PongName: "Pong",
+    PongChapter1: "V1",
+    PongText1: "Pong is cool fr",
+    PongText2: "Real",
+
+    PongChapter2: "V2",
+    PongText3: "Still Pong",
+    PongText4: "I agree idk",
+    PongText5: "Ye",
 }
 
 
@@ -189,7 +203,7 @@ const translationPi = {
     // -- Booty!
     MoreInfo: "Fire in the hole!",
 
-    //Pong
+    //Boucin' shots fired again!
     PongTitle: "Boucin' shots fired again!",
     PongDesc: "Captain's first loot! It may be cheap but it has been polished to be worth gold!",
 
@@ -201,7 +215,7 @@ const translationPi = {
     RaceGameTitle: "Ship's Chase",
     RaceGameDesc: "Ship's Chase was ye captain's third attack. T' has a shop, loot and upgradin' among other booty.",
     
-    //MineSweeper
+    //Sweepin' explosives
     MineTitle: "Sweepin' explosives",
     MineDesc: "Sweepin' explosives is a pirated minesweeper, plundered after Captain's Training didn't allow it to be used.",
 
@@ -216,6 +230,19 @@ const translationPi = {
     //Fixin' tales
     StoryTitle: "Fixin' Tales",
     StoryDesc: "\"Once upon a time\" was the ships target durin' the Captain's Training's Lootin' Race of 2024.",
+
+    // -- Full booty!
+
+    //Boucin' shots fired again!
+    PongName: "Boucin' shots fired again!",
+    PongChapter1: "V1",
+    PongText1: "Pong is cool fr",
+    PongText2: "Real",
+
+    PongChapter2: "V2",
+    PongText3: "Still Pong",
+    PongText4: "I agree idk",
+    PongText5: "Ye",
 }
 
 
