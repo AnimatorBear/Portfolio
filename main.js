@@ -89,6 +89,11 @@ const translationEn = {
     PongText3: "Almost 250 days after the full completion of Pong I started to work on V2. V2 was finished in around 150 days and included a full code rework, redone art (as seen in the image) and it finally added options. Although the update didnt add much in gameplay I do really like what it did add in gameplay.",
     PongText4: "The update allowed you to customize most things in the game. These settings allow the game to still be fun even if its basic. Playing with less pedal speed can really make the game a challenge and playing with a snail ball that goes twice as fast every time it hits something can be fun. There is also an option to add more balls into the game, allowing up to 10 pong balls in a game at once which can very quickly get chaotic.",
     PongText5: "A main part of the update was the complete art rework. I don't think any V1 art still exists in V2. The art was remade to be consistant in size, and to just look smoother. This update also added particles to the game, making it feel more responsive if you score or if the ball bounces. It also added the ball waiting for a few seconds before moving at the start or on a score. A \"Christmas\" setting was also added, which changes all the art to be Christmas themed.",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "ee",
+    TankText2: "eea",
 }
 
 
