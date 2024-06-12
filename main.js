@@ -92,8 +92,8 @@ const translationEn = {
 
     //Tank
     TankName: "Tank Game",
-    TankText1: "ee",
-    TankText2: "eea",
+    TankText1: "The tank game is a single device 2d pvp game in which you shoot at the enemies with different types of bullets. The different types of bullets do different amounts of damage and move different. The game also has a boss mode, where you and the other person face a boss that does attacks based on its health.",
+    TankText2: "This was my second school project. Since Pong was full focus on art I made sure this one was focussed on code. The game is decently small and was made 5 weeks so it does not have a lot of content, but I do want to expand on it at some point. Boss mode was added after I finished all the requirements for the game.",
 }
 
 
