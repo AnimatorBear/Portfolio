@@ -69,6 +69,10 @@ const translationEn = {
     CACGTitle: "Code Armada: Crash Guardians",
     CACGDesc: "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
 
+    //Virus Runner
+    VirusTitle: "Virus Runner",
+    VirusDesc: "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
+
     //Lighten Up
     LightenTitle: "Lighten Up!",
     LightenDesc: "A Global Game Jam game with the theme: \"Make me laugh\".",
@@ -76,6 +80,14 @@ const translationEn = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was the theme for the Noorderpoort Game Jam of 2024.",
+
+    //RealTime
+    RealTitle: "RealTime",
+    RealDesc: "A multiplayer Real Time Strategy game, made as a group project for school.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Zandvoort Turbo Tour",
+    ZTTDesc: "A racing game made for a Deep Dive.",
 
     // -- Project Pages
 
@@ -151,6 +163,10 @@ const translationNl = {
     CACGTitle: "Code Armada: Crash Guardians",
     CACGDesc: "Code Armada: Crash Guardians is een Tower Defense Game, waarbij het doel is om zo veel mogelijk waves te overleven!",
 
+    //Virus Runner
+    VirusTitle: "Virus Runner",
+    VirusDesc: "Mijn eerste Game Jam: een infinite runner. Thema: \"To infinity and beyond\"",
+    
     //Lighten Up!
     LightenTitle: "Lighten Up!",
     LightenDesc: "Een Global Game Jam game met een thema van: \"Maak mij aan het lachen\".",
@@ -158,6 +174,14 @@ const translationNl = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was de thema van de Noorderpoort Game Jam van 2024.",
+
+    //RealTime
+    RealTitle: "RealTime",
+    RealDesc: "Een multiplayer strategie game dat een groep project voor school was.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Zandvoort Turbo Tour",
+    ZTTDesc: "Een race game dat gemaakt is voor een Deep Dive.",
 
     // -- Project Paginas
 
@@ -228,6 +252,10 @@ const translationPi = {
     CACGTitle: "Defend Ye Vessel!",
     CACGDesc: "Defend Ye Vessel be a defendin game, where ye gotta stay afloat till ye end!",
 
+    //Virus Runner
+    VirusTitle: "Abandon ship!",
+    VirusDesc: "Ye captain's first Lootin' Race wit' captain's target being: \"To infinity and beyond\"",
+
     //Light 'em up!
     LightenTitle: "Light 'em up!",
     LightenDesc: "A Global Lootin' Race wit' laughter being the target!",
@@ -235,6 +263,14 @@ const translationPi = {
     //Fixin' tales
     StoryTitle: "Fixin' Tales",
     StoryDesc: "\"Once upon a time\" was the ships target durin' the Captain's Training's Lootin' Race of 2024.",
+
+    //RealTime
+    RealTitle: "Ye times' real",
+    RealDesc: "Ye fleet strategy game, made w ye captain's fleet durin' training.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Lootin' in Zandvoort",
+    ZTTDesc: "Lootin' Zandvoort for ye captains quest.",
 
     // -- Full booty!
 
