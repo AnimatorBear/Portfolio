@@ -118,21 +118,33 @@ const translationEn = {
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "-missing",
+    CodeText2: "-missing",
+    CodeText3: "-missing",
 
     //Virus Runner
     VirusName: "Virus Runner",
+    VirusText1: "-missing",
 
     //Lighten Up!
     LightenName: "Lighten Up!",
+    LightenText1: "-missing",
+    LightenText2: "-missing",
 
     //StoryFixer
     StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
 
     //RealTime
     RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
 
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
@@ -523,7 +535,7 @@ const setLanguage = (language) => {
     for(let i = 0; i < allText.length; i++){
         for(let j = 0; j < Object.keys(lang).length; j++){
             if(Object.keys(lang).includes(allText[i].id)){
-                if(lang[allText[i].id] == "/M/"){
+                if(lang[allText[i].id] == "-missing"){
                     allText[i].innerText = "Missing Translation!"
                 }else{
                     allText[i].innerText = lang[allText[i].id]
