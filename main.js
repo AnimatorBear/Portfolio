@@ -118,9 +118,9 @@ const translationEn = {
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
-    CodeText1: "-missing",
-    CodeText2: "-missing",
-    CodeText3: "-missing",
+    CodeText1: "Code Armada: Crash Guardians is an endless tower defence game where you protect your CPU from enemies such as water, fire and electricity. You can do this by placing 3 different types of towers or a trap around the map. There are 2 different motherboards (maps) for you to choose from. Every 10 waves there will be a boss enemy: A stronger version of a normal enemy.",
+    CodeText2: "Code Armada: Crash Guardians was the first school group project and we had twice as much time for it as the race game. We were a group of 6, but one of our teammembers quit the school at the start of this project. Although they quit they did come up with the main idea for the game. Most of the code was written by me and NiekMSoftware. Development video ->",
+    CodeText3: "The main systems I personally worked on are: The wave spawning system and the tower attacking system. The tower attacking system is sadly not the best and often misses. I did however make sure that even if a bullet misses it still deals damage. The wave spawning system spawns small random groups of enemies. The amount of enemies increases per wave and different types of enemies also spawn later on, and become more common up to a certain amount the more waves the player completes.",
 
     //Virus Runner
     VirusName: "Virus Runner",
