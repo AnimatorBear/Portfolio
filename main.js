@@ -114,6 +114,10 @@ const translationEn = {
 
     //MineSweeper
     MineName: "MineSweeper",
+    MineText1: "Minesweeper But Bad is a small recreation of the classic Minesweeper that was made in 2 days. It does not guarantee a big area at the start of the game and was only made because me and a classmate were not allowed to play minesweeper during lessons unless we were making it. Their minesweeper is linked on the itch.io page.",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
 
     //Virus Runner
     VirusName: "Virus Runner",
