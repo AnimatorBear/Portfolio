@@ -128,8 +128,8 @@ const translationEn = {
 
     //Lighten Up!
     LightenName: "Lighten Up!",
-    LightenText1: "-missing",
-    LightenText2: "-missing",
+    LightenText1: "Lighten Up! is a global game jam game with the theme of \"Make me laugh\". You are the only happy monkey left in a town of sad monkeys. Laugh at them to make them feel better. You have 3 different laughs: A consisten single shot, an area laugh and a fast shot with a big cooldown because it hurts your voice. Once you make all the monkeys laugh you will get sent to a boss fight with a gorilla. After you make the gorilla laugh you win.",
+    LightenText2: "This game was made in 2 days with a team of 7. Because this was a global game jam we were allowed to work on it 24/7, unlike the school game jams. Personally I still went home at the end of the days to sleep on my own bed and would return the next day to work on the game more. Due to us having such a big team one big struggle we had was well teamwork and just who was working on what. We also had the issue of going for a story game during a game jam. This is a bad idea since it is basically impossible to get everything you want done in a game jam.",
 
     //StoryFixer
     StoryName: "StoryFixer",
