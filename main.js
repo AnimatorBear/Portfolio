@@ -111,6 +111,24 @@ const translationEn = {
     RaceName: "Race Game",
     RaceText1: "E",
     RaceText2: "2",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+
+    //RealTime
+    RealName: "Real Time",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
 }
 
 
@@ -387,35 +405,35 @@ let allCards = [
     new gameCard("Virus Runner",
     "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
     "Images/2023/VirusRunner/Vi_CardImg.png",
-    "Projects/Template.html",
+    "Projects/2023/VirusRunner.html",
     "Virus",
     5
 ),
     new gameCard("Lighten Up!",
     "A global game jam game with the theme: \"Make me laugh\".",
     "Images/2024/LightenUp/LU_CardImg.png",
-    "Projects/Template.html",
+    "Projects/2024/LightenUp.html",
     "Lighten",
     6
 ),
     new gameCard("StoryFixer",
     "\"Once upon a time\" was the theme for the second school game jam.",
     "Images/2024/StoryFixer/SF_CardImg.png",
-    "Projects/Template.html",
+    "Projects/2024/StoryFixer.html",
     "Story",
     7
 ),
     new gameCard("Real Time",
     "A multiplayer Real Time Strategy game, made as a group project for school. ",
     "Images/2024/RTS/RTS_CardImg.png",
-    "Projects/Template.html",
+    "Projects/2024/RealTime.html",
     "Real",
     8
 ),
 new gameCard("Zandvoort Turbo Tour",
     "A racing game made for a Deep Dive.",
     "Images/2024/ZTT/ZTT_CardImg.png",
-    "Projects/Template.html",
+    "Projects/2024/ZTT.html",
     "ZTT",
     9
 ),
@@ -486,7 +504,7 @@ const languageSelectOp = document.getElementById("select");
 const setLanguage = (language) => {
     let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
     let lang = translationEn;
-    if(language == "Nederlands"){
+    if(language == "Nederlands" || language == "Dutch" || language == "Nl"){
         console.log("I dare ye to turn ye speech to Pirate!")
         localStorage.setItem('language',"Nederlands")
         lang = translationNl
@@ -501,7 +519,11 @@ const setLanguage = (language) => {
     for(let i = 0; i < allText.length; i++){
         for(let j = 0; j < Object.keys(lang).length; j++){
             if(Object.keys(lang).includes(allText[i].id)){
-                allText[i].innerText = lang[allText[i].id]
+                if(lang[allText[i].id] == "/M/"){
+                    allText[i].innerText = "Missing Translation!"
+                }else{
+                    allText[i].innerText = lang[allText[i].id]
+                }
             }
         }
     }
