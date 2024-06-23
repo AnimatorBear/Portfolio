@@ -124,7 +124,7 @@ const translationEn = {
 
     //Virus Runner
     VirusName: "Virus Runner",
-    VirusText1: "-missing",
+    VirusText1: "Virus Runner was a school game jam game. We had 5 days to make it and had a team of 6. Our team name was \"Team I'll be a bit later\" and as you could have probably guessed: A lot of our team was either later or not there a few days. I was mostly on the art of the game so I only did a few small amount of code. The theme was \"To infinity and beyond\". That is why the game is an endless runner.",
 
     //Lighten Up!
     LightenName: "Lighten Up!",
@@ -222,18 +222,62 @@ const translationNl = {
     ZTTTitle: "Zandvoort Turbo Tour",
     ZTTDesc: "Een race game dat gemaakt is voor een Deep Dive.",
 
-    // -- Project Paginas
+    // -- Project Pages
 
     //Pong
     PongName: "Pong",
     PongChapter1: "V1",
-    PongText1: "Pong is cool fr",
-    PongText2: "Real",
+    PongText1: "-missing",
+    PongText2: "-missing",
 
     PongChapter2: "V2",
-    PongText3: "Still Pong",
-    PongText4: "I agree idk",
-    PongText5: "Ye",
+    PongText3: "-missing",
+    PongText4: "-missing",
+    PongText5: "-missing",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "-missing",
+    TankText2: "-missing",
+
+    //Race
+    RaceName: "Race Game",
+    RaceText1: "-missing",
+    RaceText2: "-missing",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+    MineText1: "-missing",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "-missing",
+    CodeText2: "-missing",
+    CodeText3: "-missing",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+    VirusText1: "-missing",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+    LightenText1: "-missing",
+    LightenText2: "-missing",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
+
+    //RealTime
+    RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
@@ -311,18 +355,62 @@ const translationPi = {
     ZTTTitle: "Lootin' in Zandvoort",
     ZTTDesc: "Lootin' Zandvoort for ye captains quest.",
 
-    // -- Full booty!
+    // -- Full Booty
 
-    //Boucin' shots fired again!
-    PongName: "Boucin' shots fired again!",
+    //Pong
+    PongName: "Pong",
     PongChapter1: "V1",
-    PongText1: "Pong is cool fr",
-    PongText2: "Real",
+    PongText1: "-missing",
+    PongText2: "-missing",
 
     PongChapter2: "V2",
-    PongText3: "Still Pong",
-    PongText4: "I agree idk",
-    PongText5: "Ye",
+    PongText3: "-missing",
+    PongText4: "-missing",
+    PongText5: "-missing",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "-missing",
+    TankText2: "-missing",
+
+    //Race
+    RaceName: "Race Game",
+    RaceText1: "-missing",
+    RaceText2: "-missing",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+    MineText1: "-missing",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "-missing",
+    CodeText2: "-missing",
+    CodeText3: "-missing",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+    VirusText1: "-missing",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+    LightenText1: "-missing",
+    LightenText2: "-missing",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
+
+    //RealTime
+    RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
