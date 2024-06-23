@@ -109,8 +109,8 @@ const translationEn = {
 
     //Race
     RaceName: "Race Game",
-    RaceText1: "E",
-    RaceText2: "2",
+    RaceText1: "The race game is a pve racing game with multiple powerups and upgrades. It has an upgrades shop and a few achievements with skins. The upgrades are bought with coins, which you get after finishing the race or by using powerups. There are built in \"dev tools\" which the player can turn on with the press of a button, basically giving the player cheats if they know the buttons. The players progress also saves.",
+    RaceText2: "I was not very interested in the racing part of the race game, so I focused on just about everything else. I made a shop for upgrades, added achievements, skins, settings and the list goes on and on. I made sure all the players progress was saved by using playerprefs so they could play again later. The race game was the 3rd school project and had double the time as Pong or the Tank Game.",
 
     //MineSweeper
     MineName: "MineSweeper",
