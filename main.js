@@ -8,9 +8,9 @@ class gameCard{
         this.order = newOrder
     }
     name = "TEMPNAME"
-    image = "Images/Misc/guh.png"
+    image = "./Images/Misc/guh.png"
     desc = "TEMPDESC aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    link = "Projects/Template.html"
+    link = "./Projects/Template.html"
     id = "Test"
     order = -1
 }
