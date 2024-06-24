@@ -519,8 +519,7 @@ let allCards = [
     "Projects/2024/LightenUp.html",
     "Lighten",
     6
-),
-    new gameCard("StoryFixer",
+),/*    new gameCard("StoryFixer",
     "\"Once upon a time\" was the theme for the second school game jam.",
     "Images/2024/StoryFixer/SF_CardImg.png",
     "Projects/2024/StoryFixer.html",
@@ -540,7 +539,7 @@ new gameCard("Zandvoort Turbo Tour",
     "Projects/2024/ZTT.html",
     "ZTT",
     9
-),
+),*/
 ];
 
 function placeCards(place,order){
