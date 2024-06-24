@@ -5,75 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../custom.css">
+    <link rel="stylesheet" href="/custom.css">
+    <link rel="icon" href="/Images/Icons/PongV2.ico">
     <title>Pong</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand navbar-name-text" href="../../../index.html">Rudo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active navbar-text" aria-current="page" href="../../../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-text" href="../../Pages/Projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-text" href="../../Pages/AboutMe.html">About Me</a>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <h1 style="margin-top: 3%;" class="gameTitle">Pong</h1>
-        <div class="gameContainer">
-            <div class="gameImage">
-              <img src="../../Images/2022/Pong/Pong_1.png">
-            </div>
-            <div class="gameText">
-                <!-- <span class="importantText"> importantText</span> -->
-              <h1>
-                <span class="importantText"> "Pong  </span>is a <span class="importantText">two-dimensional</span> sports game that simulates <span class="importantText">table tennis"</span> , 
-                But I think everyone knows what pong is. 
-                This version of pong has increasing ball speed , win screens and custom art.
-                Most of the (V1) code was not written by me , but all the art is mine.
+  <header>
+    <!--  To do id stuff: Find and repIace "RepIace", This text uses I so it doesnt show up-->
+    <!--  NavBar  -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark"style="opacity: 95%;">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-name-text" href="/index.html">Rudo</a>
 
-              </h1>
-            </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active navbar-text" aria-current="page" href="/index.html"id="navHome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="/Pages/Projects.html"id="navProj">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="/Pages/AboutMe.html"id="navMe"> About Me</a>
+          </li>
+        </ul>
+        </div>
+        <div class = "langText">
+          <select name =""id="select">
+            <option value="English" id="languageSelectEn">English</option>
+            <option value="Nederlands" id="languageSelectNl">Dutch</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+    <!--  NavBar  -->
+  </header>
+    <main>
+      <!--  Title  -->
+        <h1 style="margin-top: 5%;" class="gameTitle" id="PongName">Pong</h1>
+        <!--  Title  -->
+        <!--  Chapter Title  -->
+        <h3 style="margin-top: 3%;" class="gameChapter" id="PongChapter1">{Untranslated Chapter}</h1>
+        <!--  Chapter Title  -->
+        <!--  Image+Description  -->
+        <div class="gameContainer">
+          <div class="gameImage">
+            <img src="/Images/2022/Pong/PongV1_Title.png">
           </div>
-          <div class="gameContainer">
-            <div class="gameText">
-                <h1>
-                    This was my <span class="importantText"> first ever</span> game development <span class="importantText">project</span> so it is very small and not that interesting.
-                    Most of the <span class="importantText">code was written by my teachers,</span> since I didnt know any coding at all.
-                    The game is made in unity with transform translate.
-                    Pong has been updated to version 2.0 on December 15th 2023
-                </h1>
-              </div>
-            <div class="gameImage">
-              <img src="../../Images/2022/Pong/Pong_2.png">
-            </div>
+            <h1 id="PongText1" class="gameText">{Untranslated Text}</h1>
+        </div>
+        <!--  Image+Description  -->
+        <!--  Video+Description  -->
+        <div class="gameContainer">
+          <h1 id="PongText2" class="gameText">{Untranslated Text} </h1>
+          <div class="gameImage">
+            <video class="gameVideo" autoplay muted loop>
+              <source src="/Videos/Projects/2022/Pong/Pong-Bounce.mp4" type="video/mp4" id="VideoNotSupported">
+            Your browser does not support the video tag.
+            </video>
           </div>
+        </div>
+        <!--  Video+Description  -->
+        <!--  Chapter Title  -->
+        <h3 style="margin-top: 3%;" class="gameChapter" id="PongChapter2">{Untranslated Chapter}</h1>
+        <!--  Chapter Title  -->
+        <!--  Video+Description  -->
+        <div class="gameContainer">
+          <div class="gameImage">
+            <video class="gameVideo" autoplay muted loop>
+              <source src="/Videos/Projects/2022/Pong/Pong-Particles.mp4" type="video/mp4" id="VideoNotSupported">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <h1 id="PongText3" class="gameText">{Untranslated Text} </h1>
+        </div>
+        <!--  Video+Description  -->
+        <!--  Image+Description  -->
+        <div class="gameContainer">
+          <h1 id="PongText4" class="gameText">{Untranslated Text}</h1>
+          <div class="gameImage">
+            <img src="/Images/2022/Pong/PongV2_Settings.png">
+          </div>
+        </div>
+        <!--  Image+Description  -->
+        <!--  Image+Description  -->
+        <div class="gameContainer">
+          <div class="gameImage">
+            <img src="/Images/2022/Pong/PongV2_Gameplay.png">
+          </div>
+            <h1 id="PongText5" class="gameText">{Untranslated Text}</h1>
+        </div>
+      <!--  Image+Description  -->
+          <!--  Itch.io link & Guh  -->
           <div class="visitContainer">
-            <h1 class="gameText2">Pong's itch.io Page:</h1>
+            <h1 class="gameText2" id="ItchPage">Itch.io page:</h1>
             <a href="https://animatorbear.itch.io/pong" class="gameLink">Itch.io</a>
-            <img src="../../Images/Misc/guh.png" class="guh" alt="...">
+            <img src="/Images/Misc/guh.png" class="guh" alt="...">
           </div>
+          <!--  Itch.io link & Guh  -->
     </main>
     <footer>
         <footer>
+            <!--  Bottom nav bar  -->
             <nav class="navbar fixed-bottom navbar-dark bg-dark">
               <div class="container-fluid">
               </div>
             </nav>
+            <!--  Bottom nav bar  -->
           </footer>
     </footer>
+    <!--  BScript  -->
+    <script src="/main.js"></script>
 </body>
 </html>

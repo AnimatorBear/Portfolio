@@ -24,6 +24,7 @@ const translationEn = {
     navMe: "About Me",
     languageSelectEn: "English",
     languageSelectNl: "Dutch",
+    VideoNotSupported: "Your browser does not support the video tag.",
 
     // -- Home page
     Title1: "Welcome to the ",
@@ -43,6 +44,7 @@ const translationEn = {
 
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
+    ItchPage: "Itch.io page",
 
     // -- Game Cards
     MoreInfo: "More info",
@@ -67,6 +69,10 @@ const translationEn = {
     CACGTitle: "Code Armada: Crash Guardians",
     CACGDesc: "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
 
+    //Virus Runner
+    VirusTitle: "Virus Runner",
+    VirusDesc: "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
+
     //Lighten Up
     LightenTitle: "Lighten Up!",
     LightenDesc: "A Global Game Jam game with the theme: \"Make me laugh\".",
@@ -74,6 +80,71 @@ const translationEn = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was the theme for the Noorderpoort Game Jam of 2024.",
+
+    //RealTime
+    RealTitle: "RealTime",
+    RealDesc: "A multiplayer Real Time Strategy game, made as a group project for school.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Zandvoort Turbo Tour",
+    ZTTDesc: "A racing game made for a Deep Dive.",
+
+    // -- Project Pages
+
+    //Pong
+    PongName: "Pong",
+    PongChapter1: "V1",
+    PongText1: "\"Pong is a two-dimensional sports game that simulates table tennis\"\n but I'm sure everyone knows that. One of the great qualities of this is that Pong is one of the easiest games to make. That is why Pong was the first project I ever made at school. The project only lasted a few weeks so there wasnt a lot of time to make the project better.",
+    PongText2: "Since I was new to programming I really avoided coding a bit for Pong. Most of the V1 code is made by school or by classmates. I mostly focussed on the art and left the programming for the second project we had: the Tank Game. Altho I wasn't focussing on it, I did get to know the basics of unity with this project.",
+
+    PongChapter2: "V2",
+    PongText3: "Almost 250 days after the full completion of Pong I started to work on V2. V2 was finished in around 150 days and included a full code rework, redone art (as seen in the image) and it finally added options. Although the update didnt add much in gameplay I do really like what it did add in gameplay.",
+    PongText4: "The update allowed you to customize most things in the game. These settings allow the game to still be fun even if its basic. Playing with less pedal speed can really make the game a challenge and playing with a snail ball that goes twice as fast every time it hits something can be fun. There is also an option to add more balls into the game, allowing up to 10 pong balls in a game at once which can very quickly get chaotic.",
+    PongText5: "A main part of the update was the complete art rework. I don't think any V1 art still exists in V2. The art was remade to be consistant in size, and to just look smoother. This update also added particles to the game, making it feel more responsive if you score or if the ball bounces. It also added the ball waiting for a few seconds before moving at the start or on a score. A \"Christmas\" setting was also added, which changes all the art to be Christmas themed.",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "The tank game is a single device 2d pvp game in which you shoot at the enemies with different types of bullets. The different types of bullets do different amounts of damage and move different. The game also has a boss mode, where you and the other person face a boss that does attacks based on its health.",
+    TankText2: "This was my second school project. Since Pong was full focus on art I made sure this one was focussed on code. The game is decently small and was made 5 weeks so it does not have a lot of content, but I do want to expand on it at some point. Boss mode was added after I finished all the requirements for the game.",
+
+    //Race
+    RaceName: "Race Game",
+    RaceText1: "The race game is a pve racing game with multiple powerups and upgrades. It has an upgrades shop and a few achievements with skins. The upgrades are bought with coins, which you get after finishing the race or by using powerups. There are built in \"dev tools\" which the player can turn on with the press of a button, basically giving the player cheats if they know the buttons. The players progress also saves.",
+    RaceText2: "I was not very interested in the racing part of the race game, so I focused on just about everything else. I made a shop for upgrades, added achievements, skins, settings and the list goes on and on. I made sure all the players progress was saved by using playerprefs so they could play again later. The race game was the 3rd school project and had double the time as Pong or the Tank Game.",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+    MineText1: "Minesweeper But Bad is a small recreation of the classic Minesweeper that was made in 2 days. It does not guarantee a big area at the start of the game and was only made because me and a classmate were not allowed to play minesweeper during lessons unless we were making it. Their minesweeper is linked on the itch.io page.",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "Code Armada: Crash Guardians is an endless tower defence game where you protect your CPU from enemies such as water, fire and electricity. You can do this by placing 3 different types of towers or a trap around the map. There are 2 different motherboards (maps) for you to choose from. Every 10 waves there will be a boss enemy: A stronger version of a normal enemy.",
+    CodeText2: "Code Armada: Crash Guardians was the first school group project and we had twice as much time for it as the race game. We were a group of 6, but one of our teammembers quit the school at the start of this project. Although they quit they did come up with the main idea for the game. Most of the code was written by me and NiekMSoftware. Development video ->",
+    CodeText3: "The main systems I personally worked on are: The wave spawning system and the tower attacking system. The tower attacking system is sadly not the best and often misses. I did however make sure that even if a bullet misses it still deals damage. The wave spawning system spawns small random groups of enemies. The amount of enemies increases per wave and different types of enemies also spawn later on, and become more common up to a certain amount the more waves the player completes.",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+    VirusText1: "Virus Runner was a school game jam game. We had 5 days to make it and had a team of 6. Our team name was \"Team I'll be a bit later\" and as you could have probably guessed: A lot of our team was either later or not there a few days. I was mostly on the art of the game so I only did a few small amount of code. The theme was \"To infinity and beyond\". That is why the game is an endless runner.",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+    LightenText1: "Lighten Up! is a global game jam game with the theme of \"Make me laugh\". You are the only happy monkey left in a town of sad monkeys. Laugh at them to make them feel better. You have 3 different laughs: A consisten single shot, an area laugh and a fast shot with a big cooldown because it hurts your voice. Once you make all the monkeys laugh you will get sent to a boss fight with a gorilla. After you make the gorilla laugh you win.",
+    LightenText2: "This game was made in 2 days with a team of 7. Because this was a global game jam we were allowed to work on it 24/7, unlike the school game jams. Personally I still went home at the end of the days to sleep on my own bed and would return the next day to work on the game more. Due to us having such a big team one big struggle we had was well teamwork and just who was working on what. We also had the issue of going for a story game during a game jam. This is a bad idea since it is basically impossible to get everything you want done in a game jam.",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
+
+    //RealTime
+    RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
@@ -86,6 +157,7 @@ const translationNl = {
     navMe: "Over Mij",
     languageSelectEn: "Engels",
     languageSelectNl: "Nederlands",
+    VideoNotSupported: "Kan video niet afspelen.",
 
     // -- Voorpagina
     Title1: "Welkom op de ",
@@ -105,6 +177,7 @@ const translationNl = {
 
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
+    ItchPage: "Itch.io pagina",
 
     // -- Game Cards
     MoreInfo: "Meer info",
@@ -129,6 +202,10 @@ const translationNl = {
     CACGTitle: "Code Armada: Crash Guardians",
     CACGDesc: "Code Armada: Crash Guardians is een Tower Defense Game, waarbij het doel is om zo veel mogelijk waves te overleven!",
 
+    //Virus Runner
+    VirusTitle: "Virus Runner",
+    VirusDesc: "Mijn eerste Game Jam: een infinite runner. Thema: \"To infinity and beyond\"",
+    
     //Lighten Up!
     LightenTitle: "Lighten Up!",
     LightenDesc: "Een Global Game Jam game met een thema van: \"Maak mij aan het lachen\".",
@@ -136,6 +213,71 @@ const translationNl = {
     //StoryFixer
     StoryTitle: "StoryFixer",
     StoryDesc: "\"Once upon a time\" was de thema van de Noorderpoort Game Jam van 2024.",
+
+    //RealTime
+    RealTitle: "RealTime",
+    RealDesc: "Een multiplayer strategie game dat een groep project voor school was.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Zandvoort Turbo Tour",
+    ZTTDesc: "Een race game dat gemaakt is voor een Deep Dive.",
+
+    // -- Project Pages
+
+    //Pong
+    PongName: "Pong",
+    PongChapter1: "V1",
+    PongText1: "-missing",
+    PongText2: "-missing",
+
+    PongChapter2: "V2",
+    PongText3: "-missing",
+    PongText4: "-missing",
+    PongText5: "-missing",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "-missing",
+    TankText2: "-missing",
+
+    //Race
+    RaceName: "Race Game",
+    RaceText1: "-missing",
+    RaceText2: "-missing",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+    MineText1: "-missing",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "-missing",
+    CodeText2: "-missing",
+    CodeText3: "-missing",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+    VirusText1: "-missing",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+    LightenText1: "-missing",
+    LightenText2: "-missing",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
+
+    //RealTime
+    RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
@@ -148,6 +290,7 @@ const translationPi = {
     navMe: "'Bout Captain",
     languageSelectEn: "Land speech",
     languageSelectNl: "Other land speech",
+    VideoNotSupported: "Ye ship be too weak for these waters!",
 
     // -- Ship's paper
     Title1: "Welcome aboard",
@@ -167,11 +310,12 @@ const translationPi = {
 
     // -- All Booty!
     proTitle: "All Booty (A-Z)",
+    ItchPage: "Map to booty",
 
     // -- Booty!
     MoreInfo: "Fire in the hole!",
 
-    //Pong
+    //Boucin' shots fired again!
     PongTitle: "Boucin' shots fired again!",
     PongDesc: "Captain's first loot! It may be cheap but it has been polished to be worth gold!",
 
@@ -183,13 +327,17 @@ const translationPi = {
     RaceGameTitle: "Ship's Chase",
     RaceGameDesc: "Ship's Chase was ye captain's third attack. T' has a shop, loot and upgradin' among other booty.",
     
-    //MineSweeper
+    //Sweepin' explosives
     MineTitle: "Sweepin' explosives",
     MineDesc: "Sweepin' explosives is a pirated minesweeper, plundered after Captain's Training didn't allow it to be used.",
 
     //Defend Ye Vessel!
     CACGTitle: "Defend Ye Vessel!",
     CACGDesc: "Defend Ye Vessel be a defendin game, where ye gotta stay afloat till ye end!",
+
+    //Virus Runner
+    VirusTitle: "Abandon ship!",
+    VirusDesc: "Ye captain's first Lootin' Race wit' captain's target being: \"To infinity and beyond\"",
 
     //Light 'em up!
     LightenTitle: "Light 'em up!",
@@ -198,6 +346,71 @@ const translationPi = {
     //Fixin' tales
     StoryTitle: "Fixin' Tales",
     StoryDesc: "\"Once upon a time\" was the ships target durin' the Captain's Training's Lootin' Race of 2024.",
+
+    //RealTime
+    RealTitle: "Ye times' real",
+    RealDesc: "Ye fleet strategy game, made w ye captain's fleet durin' training.",
+
+    //Zandvoort Turbo Tour
+    ZTTTitle: "Lootin' in Zandvoort",
+    ZTTDesc: "Lootin' Zandvoort for ye captains quest.",
+
+    // -- Full Booty
+
+    //Pong
+    PongName: "Pong",
+    PongChapter1: "V1",
+    PongText1: "-missing",
+    PongText2: "-missing",
+
+    PongChapter2: "V2",
+    PongText3: "-missing",
+    PongText4: "-missing",
+    PongText5: "-missing",
+
+    //Tank
+    TankName: "Tank Game",
+    TankText1: "-missing",
+    TankText2: "-missing",
+
+    //Race
+    RaceName: "Race Game",
+    RaceText1: "-missing",
+    RaceText2: "-missing",
+
+    //MineSweeper
+    MineName: "MineSweeper",
+    MineText1: "-missing",
+
+    //Code Armada: Crash Guardians
+    CodeName: "Code Armada: Crash Guardians",
+    CodeText1: "-missing",
+    CodeText2: "-missing",
+    CodeText3: "-missing",
+
+    //Virus Runner
+    VirusName: "Virus Runner",
+    VirusText1: "-missing",
+
+    //Lighten Up!
+    LightenName: "Lighten Up!",
+    LightenText1: "-missing",
+    LightenText2: "-missing",
+
+    //StoryFixer
+    StoryName: "StoryFixer",
+    StoryText1: "-missing",
+    StoryText2: "-missing",
+
+    //RealTime
+    RealName: "Real Time",
+    RealText1: "-missing",
+    RealText2: "-missing",
+
+    //ZTT
+    ZTTName: "Zandvoort Turbo Tour",
+    ZTTText1: "-missing",
+    ZTTText2: "-missing",
 }
 
 
@@ -260,74 +473,73 @@ function createCard(cardInfo) {
 let allCards = [
     new gameCard("Pong Remake",
     "Pong was the first game we made at school. It is simple , with most of the code not being written by me.",
-    "Images/2022/Pong/Pong_2.png",
-    "Projects/2022/Pong.html",
+    "/Images/2022/Pong/PongV2_CardImg.png",
+    "/Projects/2022/Pong.html",
     "Pong",
     0
 ),
     new gameCard("Tank Game",
     "The Tank Game was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.",
-    "Images/2022/Tank/Tank_3B.png",
-    "Projects/2022/Tank.html",
+    "/Images/2022/Tank/Tank_CardImg.png",
+    "/Projects/2022/Tank.html",
     "Tank",
     1
 ),
     new gameCard("Race Game",
     "The Race Game was the third game I made in school. It had a shop , achievements , upgrades and much more.",
-    "Images/2023/Race/RaceGame.png",
-    "Projects/2023/Race.html",
+    "/Images/2023/Race/Race_CardImg.png",
+    "/Projects/2023/Race.html",
     "RaceGame",
     2
 ),
     new gameCard("Minesweeper but Bad",
     "Minesweeper is a remake of the original minesweeper, made since we werent allowed to play minesweeper in class.",
-    "Images/2023/Mine/Mine_1.png",
-    "Projects/2023/Mine.html",
+    "/Images/2023/Mine/Mine_CardImg.png",
+    "/Projects/2023/Mine.html",
     "Mine",
     3
 ),
     new gameCard("Code Armada: Crash Guardians",
     "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
-    "Images/2023/Code_Armada/CA-Main.png",
-    "Projects/2023/CodeArmada.html",
+    "/Images/2023/Code_Armada/CA_CardImg.png",
+    "/Projects/2023/CodeArmada.html",
     "CACG",
     4
 ),
     new gameCard("Virus Runner",
     "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
-    "Images/2023/VirusRunner/Vi-CardImage.png",
-    "Projects/Template.html",
+    "/Images/2023/VirusRunner/Vi_CardImg.png",
+    "/Projects/2023/VirusRunner.html",
     "Virus",
     5
 ),
     new gameCard("Lighten Up!",
     "A global game jam game with the theme: \"Make me laugh\".",
-    "Images/2024/LightenUp/LU-CardImage.png",
-    "Projects/Template.html",
+    "/Images/2024/LightenUp/LU_CardImg.png",
+    "/Projects/2024/LightenUp.html",
     "Lighten",
     6
-),
-    new gameCard("StoryFixer",
+),/*    new gameCard("StoryFixer",
     "\"Once upon a time\" was the theme for the second school game jam.",
-    "Images/2024/StoryFixer/SF-1.png",
-    "Projects/Template.html",
+    "/Images/2024/StoryFixer/SF_CardImg.png",
+    "/Projects/2024/StoryFixer.html",
     "Story",
     7
 ),
     new gameCard("Real Time",
     "A multiplayer Real Time Strategy game, made as a group project for school. ",
-    "Images/2024/RTS/RTS1.png",
-    "Projects/Template.html",
+    "/Images/2024/RTS/RTS_CardImg.png",
+    "/Projects/2024/RealTime.html",
     "Real",
     8
 ),
 new gameCard("Zandvoort Turbo Tour",
     "A racing game made for a Deep Dive.",
-    "Images/2024/ZTT/ZTT-CardImage.png",
-    "Projects/Template.html",
+    "/Images/2024/ZTT/ZTT_CardImg.png",
+    "/Projects/2024/ZTT.html",
     "ZTT",
     9
-),
+),*/
 ];
 
 function placeCards(place,order){
@@ -393,9 +605,9 @@ const languageSelectOp = document.getElementById("select");
     });
 
 const setLanguage = (language) => {
-    let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5');
+    let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
     let lang = translationEn;
-    if(language == "Nederlands"){
+    if(language == "Nederlands" || language == "Dutch" || language == "Nl"){
         console.log("I dare ye to turn ye speech to Pirate!")
         localStorage.setItem('language',"Nederlands")
         lang = translationNl
@@ -410,7 +622,11 @@ const setLanguage = (language) => {
     for(let i = 0; i < allText.length; i++){
         for(let j = 0; j < Object.keys(lang).length; j++){
             if(Object.keys(lang).includes(allText[i].id)){
-                allText[i].innerText = lang[allText[i].id]
+                if(lang[allText[i].id] == "-missing"){
+                    allText[i].innerText = "Missing Translation!"
+                }else{
+                    allText[i].innerText = lang[allText[i].id]
+                }
             }
         }
     }

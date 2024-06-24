@@ -5,64 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../custom.css">
+    <link rel="stylesheet" href="/custom.css">
+    <link rel="icon" href="/Images/Icons/Race.ico">
     <title>Race Game</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand navbar-name-text" href="../../../index.html">Rudo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active navbar-text" aria-current="page" href="../../../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-text" href="../../Pages/Projects.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-text" href="../../Pages/AboutMe.html">About Me</a>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <!--  To do id stuff: Find and repIace "RepIace", This text uses I so it doesnt show up-->
+    <!--  NavBar  -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark"style="opacity: 95%;">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-name-text" href="/index.html">Rudo</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active navbar-text" aria-current="page" href="/index.html"id="navHome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="/Pages/Projects.html"id="navProj">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-text" href="/Pages/AboutMe.html"id="navMe"> About Me</a>
+          </li>
+        </ul>
+        </div>
+        <div class = "langText">
+          <select name =""id="select">
+            <option value="English" id="languageSelectEn">English</option>
+            <option value="Nederlands" id="languageSelectNl">Dutch</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+    <!--  NavBar  -->
+  </header>
     <main>
-        <h1 style="margin-top: 5%;" class="gameTitle">Race Game</h1>
+      <!--  Title  -->
+        <h1 style="margin-top: 5%;" class="gameTitle" id="RaceName">{Untranslated Game Title}</h1>
+        <!--  Title  -->
+        <!--  Image+Description  -->
         <div class="gameContainer">
             <div class="gameImage">
-              <img src="../../Images/2023/Race/Race_3.png">
+              <img src="/Images/2023/Race/Race_Game.png">
             </div>
-            <div class="gameText">
-              <!-- <span class="importantText"> importantText</span> -->
-              <h1>The Race Game is a singleplayer racing game against 7 AI cars. You have 2 maps to choose from and around these maps are powerups , which can stun enemies , speed you up , ect. The Race Game also has a shop with upgrade you can buy with coins you earn throughout the races. Gain achievements and skins for doing certain things.</h1>
-            </div>
+            <h1 id="RaceText1" class="gameText">{Untranslated Text}</h1>
           </div>
+          <!--  Image+Description  -->
+          <!--  Image+Description  -->
           <div class="gameContainer">
-            <div class="gameText">
-                <h1>The Race Game is the third project I made at school and it was mostly written by me , unlike the previous two projects. I personally didnt really like the racing part of the race game so I focussed on things outside of the racing. Playerprefs (and Saving stuff between scenes in general) were a main theme for myself while making this so I used them a lot (Shop , Achievements , Settings and skins)</h1>
-              </div>
+                <h1 id="RaceText2" class="gameText">{Untranslated Text} lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quasi perferendis sed quod qui doloribus optio excepturi, repellat, nulla tenetur minima blanditiis architecto minus culpa cumque sint quo odit quidem.</h1>
             <div class="gameImage">
-              <img src="../../Images/2023/Race/Race_5.png">
+              <img src="/Images/2023/Race/Race_Shop.png">
             </div>
           </div>
+          <!--  Image+Description  -->
+          <!--  Itch.io link & Guh  -->
           <div class="visitContainer">
-            <h1 class="gameText2">The games itch.io Page:</h1>
-            <a href="https://animatorbear.itch.io/Race-Game" class="gameLink">Itch.io</a>
-            <img src="../../Images/Misc/guh.png" class="guh" alt="...">
+            <h1 class="gameText2" id="ItchPage">Itch.io page:</h1>
+            <a href="https://animatorbear.itch.io/race-game" class="gameLink">Itch.io</a>
+            <img src="/Images/Misc/guh.png" class="guh" alt="...">
           </div>
+          <!--  Itch.io link & Guh  -->
     </main>
     <footer>
         <footer>
+            <!--  Bottom nav bar  -->
             <nav class="navbar fixed-bottom navbar-dark bg-dark">
               <div class="container-fluid">
               </div>
             </nav>
+            <!--  Bottom nav bar  -->
           </footer>
     </footer>
+    <!--  BScript  -->
+    <script src="/main.js"></script>
 </body>
 </html>
