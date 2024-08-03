@@ -543,6 +543,8 @@ new gameCard("Real Time",
 ),*/
 ];
 
+console.log("Site Version: 1")
+
 function placeCards(place,order){
     let currentCards = allCards.slice();
     switch(order){
