@@ -133,13 +133,13 @@ const translationEn = {
 
     //StoryFixer
     StoryName: "StoryFixer",
-    StoryText1: "-missing",
-    StoryText2: "-missing",
+    StoryText1: "StoryFixer was a school game jam game. The jam was 5 days long and it's theme was \"Once upon a time\". The game has the player going through different stories to fix some problems. There are 3 different stories with their own goals and gameplay. This game ended up winning the \"Fits in theme\" catogory.",
+    StoryText2: "The game was made with a group of 5, consisting of 3 first years and 2 second years. I mainly recorded the sounds in the games. This includes both sound effects and the music. I also coded in the dialoge system and most of the settings.",
 
     //RealTime
     RealName: "Real Time",
-    RealText1: "-missing",
-    RealText2: "-missing",
+    RealText1: "Real Time is an RTS (Real Time Strategy) in which you make your own army, base and attack other people. The game supports multiplayer but also allows you to fight an AI. There are 2 types of resources that you need to collect to build buildings and spawn people.",
+    RealText2: "Real Time was made as a school project with a group of 5 people. We were allowed to pick the group ourselves. We had half a school year for this project with grading in the middle and at the end. We really struggled making the multiplayer in the game and due to this the game is lacking in other areas. This was mainly due to only one of us knowing how multiplayer works and the many struggles that come with that. I personally mainly worked on the building in the game and some other small things.",
 
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
@@ -519,21 +519,22 @@ let allCards = [
     "./Projects/2024/LightenUp.html",
     "Lighten",
     6
-),/*    new gameCard("StoryFixer",
+),
+new gameCard("StoryFixer",
     "\"Once upon a time\" was the theme for the second school game jam.",
     "./Images/2024/StoryFixer/SF_CardImg.png",
     "./Projects/2024/StoryFixer.html",
     "Story",
     7
 ),
-    new gameCard("Real Time",
+new gameCard("Real Time",
     "A multiplayer Real Time Strategy game, made as a group project for school. ",
     "./Images/2024/RTS/RTS_CardImg.png",
     "./Projects/2024/RealTime.html",
     "Real",
     8
 ),
-new gameCard("Zandvoort Turbo Tour",
+/*new gameCard("Zandvoort Turbo Tour",
     "A racing game made for a Deep Dive.",
     "./Images/2024/ZTT/ZTT_CardImg.png",
     "./Projects/2024/ZTT.html",
