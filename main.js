@@ -143,8 +143,8 @@ const translationEn = {
 
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
-    ZTTText1: "-missing",
-    ZTTText2: "-missing",
+    ZTTText1: "Zandvoort Turbo Tour is a racing game made for a Deep Dive. You race against 1 other racer in the racetrack of Zandvoort. You have to switch gears and watch the health of your tires while you are driving. If your wheels break while driving you will get a huge debuff. You can fix your wheels in the pitstop.",
+    ZTTText2: "ZTT was made for a teacher during a Deep Dive at school. We had 1 school week to make the game and the only requirements we had was to make it a racing game. This game was made with a group of 5 people. Personally I worked on controller/wheel support and wheel breaking/varients",
 }
 
 
@@ -534,16 +534,16 @@ new gameCard("Real Time",
     "Real",
     8
 ),
-/*new gameCard("Zandvoort Turbo Tour",
+new gameCard("Zandvoort Turbo Tour",
     "A racing game made for a Deep Dive.",
     "./Images/2024/ZTT/ZTT_CardImg.png",
     "./Projects/2024/ZTT.html",
     "ZTT",
     9
-),*/
+),
 ];
 
-console.log("Site Version: 1")
+console.log("Site Version: 2")
 
 function placeCards(place,order){
     let currentCards = allCards.slice();
