@@ -95,7 +95,7 @@ const translationEn = {
     PongName: "Pong",
     PongChapter1: "V1",
     PongText1: "\"Pong is a two-dimensional sports game that simulates table tennis\"\n but I'm sure everyone knows that. One of the great qualities of this is that Pong is one of the easiest games to make. That is why Pong was the first project I ever made at school. The project only lasted a few weeks so there wasnt a lot of time to make the project better.",
-    PongText2: "Since I was new to programming I really avoided coding a bit for Pong. Most of the V1 code is made by school or by classmates. I mostly focussed on the art and left the programming for the second project we had: the Tank Game. Altho I wasn't focussing on it, I did get to know the basics of unity with this project.",
+    PongText2: "Since I was new to programming I really avoided coding a bit for Pong. Most of the V1 code is made by school or by classmates. I mostly focussed on the art and left the programming for the second project we had: the Tank Game. Although I wasn't focussing on it, I did get to know the basics of unity with this project.",
 
     PongChapter2: "V2",
     PongText3: "Almost 250 days after the full completion of Pong I started to work on V2. V2 was finished in around 150 days and included a full code rework, redone art (as seen in the image) and it finally added options. Although the update didnt add much in gameplay I do really like what it did add in gameplay.",
@@ -227,11 +227,11 @@ const translationNl = {
     //Pong
     PongName: "Pong",
     PongChapter1: "V1",
-    PongText1: "-missing",
-    PongText2: "-missing",
+    PongText1: "\"Pong is een twee-dimentionale sport spel dat tafel tennis simuleerd.\"\n maar ik denk dat iedereen dat wel weet. Een van de beste dingen aan Pong is dat het makkelijk is om na te maken. Dit is waarom Pong het eerste project dat ik gemaakt had op school. Het project duurde een paar weken dus was er niet veel tijd om het beter te maken.",
+    PongText2: "Aangezien ik nieuw was bij programmeren probeerde ik weg te blijven van code schrijven. Daardoor is het meeste van de code geschreven door leraren of klasgenoten. Ik liet het programmeren voor de Tank Game en het meeste van mijn tijd ging dus naar het visuele deel van de game. Ookal keek ik er niet naar leerde ik wel veel van de basics van unity met dit project.",
 
     PongChapter2: "V2",
-    PongText3: "-missing",
+    PongText3: "Bijna 250 dagen nadat Pong v1 helemaal klaar was begon ik met V2. V2 was klaar in ongeveer 150 dagen en had alle code helemaal herschreven, alle art hertekend en eindelijk opties gemaakt. Ookal had de update niet veel nieuwe dingen in de game gezet had het wel de game in betere plek gezet.",
     PongText4: "-missing",
     PongText5: "-missing",
 
