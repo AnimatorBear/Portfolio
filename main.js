@@ -15,6 +15,8 @@ class gameCard{
     order = -1
 }
 
+console.log("Site Version: 4")
+
 //English Translation
 const translationEn = {
 
@@ -237,8 +239,8 @@ const translationNl = {
 
     //Tank
     TankName: "Tank Game",
-    TankText1: "-missing",
-    TankText2: "-missing",
+    TankText1: "De Tank Game is een 2D pvp game dat je op een device speelt waarbij je op de andere speler schiet met verschillende soorten kogels. De kogels doen verschillende damage en bewegen anders. De game heeft ook een Boss mode, waar jij en een andere speler tegen een baas moeten vechten dat aanvallen doet op basis van zijn health.",
+    TankText2: "Dit was mijn tweede project op school. Aangezien Pong helemaal op pixel art in ging zat ik bij dit project meer in op de code. De game is in 5 weken gemaakt en heeft niet veel, maar ik wil wel ooit een update maken. De baas was in de game gezet nadat ik alle dingen wat in de game moesten af had.",
 
     //Race
     RaceName: "Race Game",
@@ -543,7 +545,6 @@ new gameCard("Zandvoort Turbo Tour",
 ),
 ];
 
-console.log("Site Version: 3")
 
 function placeCards(place,order){
     let currentCards = allCards.slice();
