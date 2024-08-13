@@ -15,7 +15,7 @@ class gameCard{
     order = -1
 }
 
-console.log("Site Version: 4")
+console.log("Site Version: 5")
 
 //English Translation
 const translationEn = {
@@ -244,8 +244,8 @@ const translationNl = {
 
     //Race
     RaceName: "Race Game",
-    RaceText1: "-missing",
-    RaceText2: "-missing",
+    RaceText1: "De Race Game is een PVE race spel met meerdere powerups en upgrades. Er is een shop waar je de upgrades koopt en een paar achievements dat je skins geeft. Je kan de upgrades kopen met coins. Coins verdien je door een hele race te doen of door powerups te gebruiken. Er zijn built in \"Dev tools\" waarbij de speler een soort cheats heeft, als de optie aan staat. De spelers progressie wordt ook opgeslagen, waardoor de speler later terug kan komen.",
+    RaceText2: "Ik vond het race gedeelte van de race game niet heel interessant en daardoor maakte ik veel wat niks met het racen te maken: Een shop, achievements, skins, opties en nog meer. Ik zorgde ervoor dat alle speler progressie word opgeslagen met PlayerPrefs, zodat de speler later weer kan spelen. De Race Game was mijn derde school project en had twee keer zoveel tijd als Pong of de Tank Game.",
 
     //MineSweeper
     MineName: "MineSweeper",
