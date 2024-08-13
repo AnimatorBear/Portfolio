@@ -232,8 +232,8 @@ const translationNl = {
 
     PongChapter2: "V2",
     PongText3: "Bijna 250 dagen nadat Pong v1 helemaal klaar was begon ik met V2. V2 was klaar in ongeveer 150 dagen en had alle code helemaal herschreven, alle art hertekend en eindelijk opties gemaakt. Ookal had de update niet veel nieuwe dingen in de game gezet had het wel de game in betere plek gezet.",
-    PongText4: "-missing",
-    PongText5: "-missing",
+    PongText4: "Deze update liet de speler veel dingen kiezen. Pedalen slomer maken kan de game moeilijker maken en een bal dat twee keer zo snel word als het iets raakt is ook leuk. Er is ook een optie om meer pong ballen in een keer te hebben (Maximaal 10) en dat wordt snel chaos.",
+    PongText5: "Een groot deel van de update was dat alle pixel art opnieuw was gemaakt. Geen van de V1 pixel art zit nog in V2. Het was opnieuw gemaakt zodat het allemaal dezelfde groote heeft en zodat het er gewoon beter uit ziet. In deze update zitten ook particles, waardoor de een punt scoren het meer waard voelt. Er zat ook bij dat de bal een paar seconden wacht aan het begin en nadat er een punt was gekomen. Er was ook een \"Kerst\" optie bij gekomen wat alle pixel art een kerst thema geeft.",
 
     //Tank
     TankName: "Tank Game",
@@ -543,7 +543,7 @@ new gameCard("Zandvoort Turbo Tour",
 ),
 ];
 
-console.log("Site Version: 2")
+console.log("Site Version: 3")
 
 function placeCards(place,order){
     let currentCards = allCards.slice();
