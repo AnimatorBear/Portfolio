@@ -249,7 +249,7 @@ const translationNl = {
 
     //MineSweeper
     MineName: "MineSweeper",
-    MineText1: "-missing",
+    MineText1: "Minesweeper maar slecht is een kleine recreatie van het klassieke spel Minesweeper dat in 2 dagen gemaakt is. Het garandeert geen groot vlak aan het begin en was alleen gemaakt omdat ik en een klasgenoot genaamd Mike alleen Minesweeper mochten spelen als we er een zaten te maken. Mike's Minesweeper staat gelinkt op de Itch.io pagina.",
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
