@@ -15,7 +15,7 @@ class gameCard{
     order = -1
 }
 
-console.log("Site Version: 5")
+console.log("Site Version: 6")
 
 //English Translation
 const translationEn = {
@@ -47,6 +47,7 @@ const translationEn = {
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
     ItchPage: "Itch.io page",
+    ItchPageUn: "Itch.io page unavailable!",
 
     // -- Game Cards
     MoreInfo: "More info",
@@ -90,6 +91,10 @@ const translationEn = {
     //Zandvoort Turbo Tour
     ZTTTitle: "Zandvoort Turbo Tour",
     ZTTDesc: "A racing game made for a Deep Dive.",
+
+    //Give me a promotion
+    ProTitle: "Give me a promotion",
+    ProDesc: "A government serious game about learning how to name and sort files",
 
     // -- Project Pages
 
@@ -180,6 +185,7 @@ const translationNl = {
     // -- Projects Page
     proTitle: "All Projects (A-Z)",
     ItchPage: "Itch.io pagina",
+    ItchPageUn: "Kon geen Itch.io pagina vinden!",
 
     // -- Game Cards
     MoreInfo: "Meer info",
@@ -223,6 +229,10 @@ const translationNl = {
     //Zandvoort Turbo Tour
     ZTTTitle: "Zandvoort Turbo Tour",
     ZTTDesc: "Een race game dat gemaakt is voor een Deep Dive.",
+
+    //Give me a promotion
+    ProTitle: "Gun me een promotion",
+    ProDesc: "Een serious game over het leren van files een naam geven en te sorteren voor de overheid",
 
     // -- Project Pages
 
@@ -313,6 +323,7 @@ const translationPi = {
     // -- All Booty!
     proTitle: "All Booty (A-Z)",
     ItchPage: "Map to booty",
+    ItchPageUn: "Map to booty not found!",
 
     // -- Booty!
     MoreInfo: "Fire in the hole!",
@@ -337,7 +348,7 @@ const translationPi = {
     CACGTitle: "Defend Ye Vessel!",
     CACGDesc: "Defend Ye Vessel be a defendin game, where ye gotta stay afloat till ye end!",
 
-    //Virus Runner
+    //Abandon ship!
     VirusTitle: "Abandon ship!",
     VirusDesc: "Ye captain's first Lootin' Race wit' captain's target being: \"To infinity and beyond\"",
 
@@ -349,13 +360,17 @@ const translationPi = {
     StoryTitle: "Fixin' Tales",
     StoryDesc: "\"Once upon a time\" was the ships target durin' the Captain's Training's Lootin' Race of 2024.",
 
-    //RealTime
+    //Ye times' real
     RealTitle: "Ye times' real",
     RealDesc: "Ye fleet strategy game, made w ye captain's fleet durin' training.",
 
     //Zandvoort Turbo Tour
     ZTTTitle: "Lootin' in Zandvoort",
     ZTTDesc: "Lootin' Zandvoort for ye captains quest.",
+
+    //Make me capt'n
+    ProTitle: "Make me capt'n",
+    ProDesc: "Work t' become the capt'n o' the government",
 
     // -- Full Booty
 
@@ -543,6 +558,13 @@ new gameCard("Zandvoort Turbo Tour",
     "ZTT",
     9
 ),
+/*new gameCard("Give me a promotion!",
+    "A government serious game about learning how to name and sort files",
+    "./Images/2024/Promotion/Pro_CardImg.png",
+    "./Projects/2024/Promotion.html",
+    "Pro",
+    10
+),*/
 ];
 
 
