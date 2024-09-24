@@ -65,7 +65,7 @@ const translationEn = {
     RaceGameDesc: "The Race Game was the third game I made in school. It had a shop , achievements , upgrades and much more.",
 
     //MineSweeper
-    MineTitle: "Minesweeper But Bad",
+    MineTitle: "Minesweeper Remade",
     MineDesc: "Minesweeper is a remake of the original minesweeper, made since we werent allowed to play minesweeper in class.",
 
     //Code Armada: Crash Guardians
@@ -121,7 +121,7 @@ const translationEn = {
 
     //MineSweeper
     MineName: "MineSweeper",
-    MineText1: "Minesweeper But Bad is a small recreation of the classic Minesweeper that was made in 2 days. It does not guarantee a big area at the start of the game and was only made because me and a classmate were not allowed to play minesweeper during lessons unless we were making it. Their minesweeper is linked on the itch.io page.",
+    MineText1: "Minesweeper Remade is a small recreation of the classic Minesweeper that was made in 2 days. It does not guarantee a big area at the start of the game and was only made because me and a classmate were not allowed to play minesweeper during lessons unless we were making it. Their minesweeper is linked on the itch.io page.",
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
@@ -203,7 +203,7 @@ const translationNl = {
     RaceGameDesc: "De Race Game was de derde game die ik heb gemaakt. Het heeft achievements, Upgrades en een winkel.",
     
     //MineSweeper
-    MineTitle: "Minesweeper Maar Slecht",
+    MineTitle: "Minesweeper hermaakt",
     MineDesc: "Minesweeper is net als de orginele Minesweeper, en was gemaakt omdat we geen Minesweeper mochten spelen in de klas.",
 
     //Code Armada: Crash Guardians
@@ -259,7 +259,7 @@ const translationNl = {
 
     //MineSweeper
     MineName: "MineSweeper",
-    MineText1: "Minesweeper maar slecht is een kleine recreatie van het klassieke spel Minesweeper dat in 2 dagen gemaakt is. Het garandeert geen groot vlak aan het begin en was alleen gemaakt omdat ik en een klasgenoot genaamd Mike alleen Minesweeper mochten spelen als we er een zaten te maken. Mike's Minesweeper staat gelinkt op de Itch.io pagina.",
+    MineText1: "Minesweeper hermaakt is een kleine recreatie van het klassieke spel Minesweeper dat in 2 dagen gemaakt is. Het garandeert geen groot vlak aan het begin en was alleen gemaakt omdat ik en een klasgenoot genaamd Mike alleen Minesweeper mochten spelen als we er een zaten te maken. Mike's Minesweeper staat gelinkt op de Itch.io pagina.",
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
