@@ -1,9 +1,4 @@
 General:
 Make navbar get added by script
-
-Page specific:
-Code Armada Icon
-Lighten up Icon
-Real Time Icon
-ZTT Icon
-ZTT Itch.io
+Dutch
+Gun me een promotie
