@@ -13,6 +13,7 @@ class gameCard{
     link = "./Projects/Template.html"
     id = "Test"
     order = -1
+    tags = ["Game","Unity"]
 }
 
 console.log("Site Version: 7")
@@ -493,7 +494,8 @@ let allCards = [
     "./Images/2022/Pong/PongV2_CardImg.png",
     "./Projects/2022/Pong.html",
     "Pong",
-    0
+    0,
+    ["Unity","2022"]
 ),
     new gameCard("Tank Game",
     "The Tank Game was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.",
@@ -568,7 +570,7 @@ new gameCard("Zandvoort Turbo Tour",
 ];
 
 
-function placeCards(place,order){
+function placeCards(place,order,tag){
     let currentCards = allCards.slice();
     switch(order){
         case "Recent":
@@ -586,6 +588,14 @@ function placeCards(place,order){
                 }
                 return 0;
             });
+            break;
+        case "Tags":
+            for(i = 0; i < currentCards.length; i++){
+                if(!currentCards[i].tags[0] == tag){
+                    console.log(currentCards[i].tags[0])
+                    currentCards[i] = null;
+                }
+            }
             break;
     }
     //Recent
@@ -622,6 +632,7 @@ function placeCards(place,order){
 
 placeCards(document.getElementById('RecentProj'),"Recent");
 placeCards(document.getElementById('AbcProj'),"Abc");
+//placeCards(document.getElementById('Tags'),"2022");
 
 //Checks if the select got changed
 const languageSelectOp = document.getElementById("select");
