@@ -664,4 +664,6 @@ if(lan != null){
     //Sets specifically the select to be the language
     languageSelectOp.value = lan;
 
+}else{
+    setLanguage('En')
 }
