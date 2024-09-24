@@ -2,3 +2,4 @@ General:
 Make navbar get added by script
 Dutch
 Gun me een promotie
+Mobile support

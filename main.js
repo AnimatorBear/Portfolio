@@ -15,7 +15,7 @@ class gameCard{
     order = -1
 }
 
-console.log("Site Version: 6")
+console.log("Site Version: 7")
 
 //English Translation
 const translationEn = {
