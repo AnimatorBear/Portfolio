@@ -623,7 +623,7 @@ new gameCard("Zandvoort Turbo Tour",
         "Team"
     ]
 ),
-new gameCard("Give me a promotion!",
+/*new gameCard("Give me a promotion!",
     "A government serious game about learning how to name and sort files",
     "./Images/2024/Promotion/Pro_CardImg.png",
     "./Projects/2024/Promotion.html",
@@ -636,7 +636,7 @@ new gameCard("Give me a promotion!",
         "GameJam",
         "Team"
     ]
-),
+),*/
 ];
 
 
@@ -716,7 +716,7 @@ function placeCards(place,order,tag){
 
 placeCards(document.getElementById('RecentProj'),"Recent");
 placeCards(document.getElementById('AbcProj'),"Abc");
-placeCards(document.getElementById('TagsProj'),"Tags","2022");
+//placeCards(document.getElementById('TagsProj'),"Tags","2022");
 
 //Checks if the select got changed
 const languageSelectOp = document.getElementById("select");
