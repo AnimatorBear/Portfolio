@@ -1,11 +1,12 @@
 class gameCard{
-    constructor(newName,newDesc,newImage,newLink,newId,newOrder){
+    constructor(newName,newDesc,newImage,newLink,newId,newOrder,newTags){
         this.name = newName
         this.image = newImage
         this.desc = newDesc
         this.link = newLink
         this.id = newId
         this.order = newOrder
+        this.tags = newTags
     }
     name = "TEMPNAME"
     image = "./Images/Misc/guh.png"
@@ -495,78 +496,147 @@ let allCards = [
     "./Projects/2022/Pong.html",
     "Pong",
     0,
-    ["Unity","2022"]
+    [
+        "Unity",
+        "2022",
+        "School",
+        "Solo"
+    ]
 ),
     new gameCard("Tank Game",
     "The Tank Game was the second game we made at school. It is a one device turn based pvp game with multiple type of bullets.",
     "./Images/2022/Tank/Tank_CardImg.png",
     "./Projects/2022/Tank.html",
     "Tank",
-    1
+    1,
+    [
+        "Unity",
+        "2022",
+        "School",
+        "Solo"
+    ]
 ),
     new gameCard("Race Game",
     "The Race Game was the third game I made in school. It had a shop , achievements , upgrades and much more.",
     "./Images/2023/Race/Race_CardImg.png",
     "./Projects/2023/Race.html",
     "RaceGame",
-    2
+    2,
+    [
+        "Unity",
+        "2023",
+        "School",
+        "Solo"
+    ]
 ),
     new gameCard("Minesweeper but Bad",
     "Minesweeper is a remake of the original minesweeper, made since we werent allowed to play minesweeper in class.",
     "./Images/2023/Mine/Mine_CardImg.png",
     "./Projects/2023/Mine.html",
     "Mine",
-    3
+    3,
+    [
+        "Unity",
+        "2023",
+        "Home",
+        "Solo"
+    ]
 ),
     new gameCard("Code Armada: Crash Guardians",
     "Code Armada: Crash Guardians is a Tower Defense Game, where the main objective is to survive as many waves as you can!",
     "./Images/2023/Code_Armada/CA_CardImg.png",
     "./Projects/2023/CodeArmada.html",
     "CACG",
-    4
+    4,
+    [
+        "Unity",
+        "2023",
+        "School",
+        "Team"
+    ]
 ),
     new gameCard("Virus Runner",
     "The first game jam I ever did: An infinite runner. Theme: \"To infinity and beyond\"",
     "./Images/2023/VirusRunner/Vi_CardImg.png",
     "./Projects/2023/VirusRunner.html",
     "Virus",
-    5
+    5,
+    [
+        "Unity",
+        "2023",
+        "School",
+        "GameJam",
+        "Team"
+    ]
 ),
     new gameCard("Lighten Up!",
     "A global game jam game with the theme: \"Make me laugh\".",
     "./Images/2024/LightenUp/LU_CardImg.png",
     "./Projects/2024/LightenUp.html",
     "Lighten",
-    6
+    6,
+    [
+        "Unity",
+        "2024",
+        "GameJam",
+        "Team"
+    ]
 ),
 new gameCard("StoryFixer",
     "\"Once upon a time\" was the theme for the second school game jam.",
     "./Images/2024/StoryFixer/SF_CardImg.png",
     "./Projects/2024/StoryFixer.html",
     "Story",
-    7
+    7,
+    [
+        "Unity",
+        "2024",
+        "School",
+        "GameJam",
+        "Team"
+    ]
 ),
 new gameCard("Real Time",
     "A multiplayer Real Time Strategy game, made as a group project for school. ",
     "./Images/2024/RTS/RTS_CardImg.png",
     "./Projects/2024/RealTime.html",
     "Real",
-    8
+    8,
+    [
+        "Unity",
+        "2024",
+        "School",
+        "Team"
+    ]
 ),
 new gameCard("Zandvoort Turbo Tour",
     "A racing game made for a Deep Dive.",
     "./Images/2024/ZTT/ZTT_CardImg.png",
     "./Projects/2024/ZTT.html",
     "ZTT",
-    9
+    9,
+    [
+        "Unity",
+        "2024",
+        "School",
+        "GameJam",
+        "Team"
+    ]
 ),
-/*new gameCard("Give me a promotion!",
+new gameCard("Give me a promotion!",
     "A government serious game about learning how to name and sort files",
     "./Images/2024/Promotion/Pro_CardImg.png",
     "./Projects/2024/Promotion.html",
     "Pro",
-    10
-),*/
+    10,
+    [
+        "Unity",
+        "2024",
+        "School",
+        "GameJam",
+        "Team"
+    ]
+),
 ];
 
 
@@ -590,12 +660,26 @@ function placeCards(place,order,tag){
             });
             break;
         case "Tags":
+            while (place.firstChild) {
+                console.log("Removed " + place.lastChild)
+                place.removeChild(place.lastChild);
+            }
+            let tagCards = new Array;
+            let number = 0;
             for(i = 0; i < currentCards.length; i++){
-                if(!currentCards[i].tags[0] == tag){
-                    console.log(currentCards[i].tags[0])
-                    currentCards[i] = null;
+                for(j = 0; j < currentCards[i].tags.length; j++){
+                    if(currentCards[i].tags[j].toLowerCase() == tag.toLowerCase()){
+                        tagCards[number] = currentCards[i];
+                        number++;
+                        j = 999;
+                    }
                 }
             }
+
+            for(i = 0; i < tagCards.length; i++){
+                console.log(tagCards[i]);
+            }
+            currentCards = tagCards.slice();
             break;
     }
     //Recent
@@ -632,7 +716,7 @@ function placeCards(place,order,tag){
 
 placeCards(document.getElementById('RecentProj'),"Recent");
 placeCards(document.getElementById('AbcProj'),"Abc");
-//placeCards(document.getElementById('Tags'),"2022");
+placeCards(document.getElementById('TagsProj'),"Tags","2022");
 
 //Checks if the select got changed
 const languageSelectOp = document.getElementById("select");
@@ -640,6 +724,9 @@ const languageSelectOp = document.getElementById("select");
         localStorage.setItem('language',event.target.value)
         setLanguage(event.target.value)
     });
+
+const tagSelect = document.getElementById("TagSelect");
+tagSelect.addEventListener("change",(event) => {placeCards(document.getElementById('TagsProj'),"Tags",event.target.value)});
 
 const setLanguage = (language) => {
     let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
