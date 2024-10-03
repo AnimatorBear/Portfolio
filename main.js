@@ -641,6 +641,7 @@ new gameCard("Zandvoort Turbo Tour",
 
 
 function placeCards(place,order,tag){
+    if(place != null){
     let currentCards = allCards.slice();
     switch(order){
         case "Recent":
@@ -709,14 +710,14 @@ function placeCards(place,order,tag){
                 }
             }
         }
-    
+    }
     }
     
 }
 
 placeCards(document.getElementById('RecentProj'),"Recent");
 placeCards(document.getElementById('AbcProj'),"Abc");
-//placeCards(document.getElementById('TagsProj'),"Tags","2022");
+placeCards(document.getElementById('TagsProj'),"Tags","2022");
 
 //Checks if the select got changed
 const languageSelectOp = document.getElementById("select");
@@ -726,7 +727,9 @@ const languageSelectOp = document.getElementById("select");
     });
 
 const tagSelect = document.getElementById("TagSelect");
-tagSelect.addEventListener("change",(event) => {placeCards(document.getElementById('TagsProj'),"Tags",event.target.value)});
+if(tagSelect != null){
+    tagSelect.addEventListener("change",(event) => {placeCards(document.getElementById('TagsProj'),"Tags",event.target.value)});
+}
 
 const setLanguage = (language) => {
     let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
