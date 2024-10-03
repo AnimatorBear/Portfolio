@@ -5,3 +5,16 @@ Gun me een promotie text
 Gun me een promotie Icon
 Gun me een promotie Itch.io
 Mobile support
+
+To add:
+TBRPG (Include IconConverter)-
+TextBased (Include Map)-
+Blender things
+Pirate Unity
+Misc C# Projects
+(Includes:
+    Trivia Game
+    Hangman
+    RogueAttempt
+
+)
