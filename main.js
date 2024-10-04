@@ -50,6 +50,7 @@ const translationEn = {
     proTitle: "All Projects (A-Z)",
     ItchPage: "Itch.io page",
     ItchPageUn: "Itch.io page unavailable!",
+    NoDownload: "No download available",
 
     // -- Game Cards
     MoreInfo: "More info",
@@ -204,6 +205,7 @@ const translationNl = {
     proTitle: "All Projects (A-Z)",
     ItchPage: "Itch.io pagina",
     ItchPageUn: "Kon geen Itch.io pagina vinden!",
+    NoDownload: "Kan niet gedownload worden",
 
     // -- Game Cards
     MoreInfo: "Meer info",
@@ -358,6 +360,7 @@ const translationPi = {
     proTitle: "All Booty (A-Z)",
     ItchPage: "Map to booty",
     ItchPageUn: "Map to booty not found!",
+    NoDownload: "Can't see booty!",
 
     // -- Booty!
     MoreInfo: "Fire in the hole!",
