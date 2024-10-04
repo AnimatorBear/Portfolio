@@ -252,6 +252,22 @@ const translationNl = {
     ProTitle: "Gun me een promotion",
     ProDesc: "Een serious game over het leren van files een naam geven en te sorteren voor de overheid",
 
+    //Text Based RPG
+    TBRTitle: "TBRPG",
+    TBRDesc: "Een text RPG met ascii art",
+
+    //Text Based Adventure
+    TBATitle: "TextBased",
+    TBADesc: "Een text avontuur met meerdere eindes",
+
+    //Misc CS
+    CSTitle: "Andere C# Projecten",
+    CSDesc: "Andere kleine C# projecten",
+
+    //Misc Unity
+    UnityTitle: "Andere Unity Projecten",
+    UnityDesc: "Andere kleine Unity projecten",
+
     // -- Project Pages
 
     //Pong
@@ -390,6 +406,22 @@ const translationPi = {
     ProTitle: "Make me capt'n",
     ProDesc: "Work t' become the capt'n o' the government",
 
+    //Text Based RPG
+    TBRTitle: "Written sails",
+    TBRDesc: "Written sails wit' scribbles",
+
+    //Text Based Adventure
+    TBATitle: "Written tales",
+    TBADesc: "Written tales wit' numerous ends",
+
+    //Misc CS
+    CSTitle: "Ye Other C# Booty",
+    CSDesc: "Ye smaller C# booty",
+
+    //Misc Unity
+    UnityTitle: "Ye Other Unity Booty",
+    UnityDesc: "Ye smaller Unity booty",
+
     // -- Full Booty
 
     //Pong
@@ -516,7 +548,8 @@ let allCards = [
         "Unity",
         "2022",
         "School",
-        "Solo"
+        "Solo",
+        "English"
     ]
 ),
     new gameCard("Tank Game",
@@ -529,7 +562,8 @@ let allCards = [
         "Unity",
         "2022",
         "School",
-        "Solo"
+        "Solo",
+        "English"
     ]
 ),
     new gameCard("Race Game",
@@ -542,7 +576,8 @@ let allCards = [
         "Unity",
         "2023",
         "School",
-        "Solo"
+        "Solo",
+        "English"
     ]
 ),
     new gameCard("Minesweeper but Bad",
@@ -555,7 +590,8 @@ let allCards = [
         "Unity",
         "2023",
         "Home",
-        "Solo"
+        "Solo",
+        "English"
     ]
 ),
     new gameCard("Code Armada: Crash Guardians",
@@ -568,7 +604,8 @@ let allCards = [
         "Unity",
         "2023",
         "School",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
     new gameCard("Virus Runner",
@@ -582,7 +619,8 @@ let allCards = [
         "2023",
         "School",
         "GameJam",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
     new gameCard("Lighten Up!",
@@ -595,7 +633,8 @@ let allCards = [
         "Unity",
         "2024",
         "GameJam",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
 new gameCard("StoryFixer",
@@ -609,7 +648,8 @@ new gameCard("StoryFixer",
         "2024",
         "School",
         "GameJam",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
 new gameCard("Real Time",
@@ -622,7 +662,8 @@ new gameCard("Real Time",
         "Unity",
         "2024",
         "School",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
 new gameCard("Zandvoort Turbo Tour",
@@ -636,7 +677,8 @@ new gameCard("Zandvoort Turbo Tour",
         "2024",
         "School",
         "GameJam",
-        "Team"
+        "Team",
+        "English"
     ]
 ),
 new gameCard("Give me a promotion!",
@@ -650,31 +692,34 @@ new gameCard("Give me a promotion!",
         "2024",
         "School",
         "GameJam",
-        "Team"
+        "Team",
+        "Dutch"
     ]
 ),
 new gameCard("TBRPG",
     "A text based RPG with ascii art",
     "./Images/UnknownTime/TBR_CardImg.png",
     "./Projects/UnknownTime/TBRPG.html",
-    "TBRPG",
+    "TBR",
     11,
     [
         "School",
         "Solo",
-        "Console"
+        "Console",
+        "English"
     ]
 ),
 new gameCard("TextBased",
     "A text based adventure with multiple endings",
     "./Images/UnknownTime/TBA_CardImg.png",
     "./Projects/UnknownTime/TextBased.html",
-    "TB",
+    "TBA",
     12,
     [
         "School",
         "Solo",
-        "Console"
+        "Console",
+        "English"
     ]
 ),
 new gameCard("Misc C# Projects",
@@ -688,7 +733,8 @@ new gameCard("Misc C# Projects",
         "Home",
         "Solo",
         "Team",
-        "Console"
+        "Console",
+        "English"
     ]
 ),
 new gameCard("Misc Unity projects",
