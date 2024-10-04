@@ -98,6 +98,22 @@ const translationEn = {
     ProTitle: "Give me a promotion",
     ProDesc: "A government serious game about learning how to name and sort files",
 
+    //Text Based RPG
+    TBRTitle: "TBRPG",
+    TBRDesc: "A text based RPG with ascii art",
+
+    //Text Based Adventure
+    TBATitle: "TextBased",
+    TBADesc: "A text based adventure with multiple endings",
+
+    //Misc CS
+    CSTitle: "Misc C# Projects",
+    CSDesc: "Other smaller C# projects",
+
+    //Misc Unity
+    UnityTitle: "Misc Unity Projects",
+    UnityDesc: "Other smaller Unity projects",
+
     // -- Project Pages
 
     //Pong
@@ -623,7 +639,7 @@ new gameCard("Zandvoort Turbo Tour",
         "Team"
     ]
 ),
-/*new gameCard("Give me a promotion!",
+new gameCard("Give me a promotion!",
     "A government serious game about learning how to name and sort files",
     "./Images/2024/Promotion/Pro_CardImg.png",
     "./Projects/2024/Promotion.html",
@@ -636,7 +652,57 @@ new gameCard("Zandvoort Turbo Tour",
         "GameJam",
         "Team"
     ]
-),*/
+),
+new gameCard("TBRPG",
+    "A text based RPG with ascii art",
+    "./Images/UnknownTime/TBR_CardImg.png",
+    "./Projects/UnknownTime/TBRPG.html",
+    "TBRPG",
+    11,
+    [
+        "School",
+        "Solo",
+        "Console"
+    ]
+),
+new gameCard("TextBased",
+    "A text based adventure with multiple endings",
+    "./Images/UnknownTime/TBA_CardImg.png",
+    "./Projects/UnknownTime/TextBased.html",
+    "TB",
+    12,
+    [
+        "School",
+        "Solo",
+        "Console"
+    ]
+),
+new gameCard("Misc C# Projects",
+    "Other smaller C# projects",
+    "./Images/UnknownTime/Rogue_CardImg.png",
+    "./Projects/UnknownTime/MiscCS.html",
+    "CS",
+    13,
+    [
+        "School",
+        "Home",
+        "Solo",
+        "Team",
+        "Console"
+    ]
+),
+new gameCard("Misc Unity projects",
+    "Other smaller Unity projects",
+    "./Images/UnknownTime/Pirate_CardImg.png",
+    "./Projects/UnknownTime/MiscUnity.html",
+    "Unity",
+    14,
+    [
+        "Unity",
+        "School",
+        "Solo"
+    ]
+),
 ];
 
 
