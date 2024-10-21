@@ -305,7 +305,7 @@ const translationNl = {
 
     //Virus Runner
     VirusName: "Virus Runner",
-    VirusText1: "-missing",
+    VirusText1: "Virus Runner was een school game jam game. We hadden 5 dagen om het te maken en we hadden een team van 6 mensen. Onze team naam was \"Team ik kom wat later\", en als je al kan raden van de naam: Veel dagen was iemand in ons team later of er helemaal niet. Elke dag veranderde wel wie het was. Ik was vooral bezig met de art voor de game, en deed daardoor weinig code. De game is een eindelose runner, en het thema van de Jam was \"To infinity and beyond\".",
 
     //Lighten Up!
     LightenName: "Lighten Up!",
