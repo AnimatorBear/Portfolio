@@ -299,9 +299,9 @@ const translationNl = {
 
     //Code Armada: Crash Guardians
     CodeName: "Code Armada: Crash Guardians",
-    CodeText1: "-missing",
-    CodeText2: "-missing",
-    CodeText3: "-missing",
+    CodeText1: "Code Armada: Crash Guardians is een Tower Defence Game waarin jij je CPU beschermd van vijanden zoals water, vuur en stof. Je doet dit door torens of vallen rond de map neer te zetten. Er zijn 2 verschillende \"moederborden\" (Mappen) om uit te kiezen. Elke 10 waves komt er een boss. Bosses hebben meer HP.",
+    CodeText2: "Code Armada: Crash Guardians was het eerste groep project op school en we hadden 2 blokken om het te maken. We waren met een groep van 6 maar een persoon van onze groep ging van de opleiding af. Ookal was dat persoon gestopt met de opleiding heeft hij wel het idee voor het spel verzonnen. Het meeste van de code was gemaakt door mij en NiekMSoftware.",
+    CodeText3: "De systemen waar ik persoonlijk aan gewerkt had zijn: De wave, spawning en toren systemen. Ookal had ik moeite met de kogels van de torens accuraat te maken doen ze wel altijd damage, ookal raken ze soms niet. Het spawning systeem spawnt random groepen van enemies, dus 5 van dezelfde random enemy achter elkaar. Het aantal enemies gaat ook per wave omhoog, met verschillende soorten enemies die steeds vaker spawnen in de latere waves.",
 
     //Virus Runner
     VirusName: "Virus Runner",
@@ -684,7 +684,7 @@ new gameCard("Zandvoort Turbo Tour",
         "English"
     ]
 ),
-new gameCard("Give me a promotion!",
+/*new gameCard("Give me a promotion!",
     "A government serious game about learning how to name and sort files",
     "./Images/2024/Promotion/Pro_CardImg.png",
     "./Projects/2024/Promotion.html",
@@ -751,7 +751,7 @@ new gameCard("Misc Unity projects",
         "School",
         "Solo"
     ]
-),
+),*/
 ];
 
 
