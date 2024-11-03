@@ -1,6 +1,5 @@
 General:
 Make navbar get added by script
-Dutch
 Gun me een promotie text
 Gun me een promotie Icon
 Gun me een promotie Itch.io

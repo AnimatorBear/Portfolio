@@ -17,7 +17,7 @@ class gameCard{
     tags = ["Game","Unity"]
 }
 
-console.log("Site Version: 7")
+console.log("Site Version: 8 (Full Dutch Support(Apart from About Me, Which is outdated in general.))")
 
 //English Translation
 const translationEn = {
@@ -485,10 +485,12 @@ const translationPi = {
 
 
 function createCard(cardInfo) {
+    //Adds the main card parent
     const card = document.createElement('div');
     card.classList.add('card');
     card.style="max-width:25%;"
 
+    //Adds the image and sets its value
     const cardImg = document.createElement('img');
     cardImg.setAttribute('class','card-img-top')
     if(document.URL.includes("Projects.html")){
@@ -497,30 +499,38 @@ function createCard(cardInfo) {
         cardImg.src = cardInfo.image;
     }
 
+    //Adds a body parent
     const cardBody = document.createElement('div');
     cardBody.setAttribute('class','card-body')
 
+    //Adds the title parent
     const cardTitleBody = document.createElement('div');
     cardTitleBody.setAttribute('class','card-title')
 
+    //Adds the actual title
     const cardTitle = document.createElement('h2');
     cardTitle.id = cardInfo.id + "Title"
     cardTitle.textContent = cardInfo.name;
     cardTitle.setAttribute('class','cardTitle')
 
+    //Adds a description parent
     const cardDescBody = document.createElement('div');
     cardDescBody.setAttribute('class','card-text')
 
+    //Adds the actual description
     const cardDesc = document.createElement('p');
     cardDesc.textContent = cardInfo.desc;
     cardDesc.id = cardInfo.id + "Desc"
     cardTitleBody.setAttribute('class','cardText')
 
+    //I forgot, im sorry.
     const cardDescName = document.createElement('span');
     cardDescName.setAttribute('class','importantText')
 
+    //Adds the link to the project page.
     const cardButton = document.createElement('a');
     cardButton.setAttribute('class','btn btn-info')
+    //If the card is on the projects page it needs ../ to reference the page link.
     if(document.URL.includes("Projects.html")){
         cardButton.href = "../" + cardInfo.link;
     }else{
@@ -529,6 +539,7 @@ function createCard(cardInfo) {
     cardButton.textContent = "More Info";
     cardButton.id = "MoreInfo"
 
+    //Adds all the parts of the card onto each other
     card.appendChild(cardImg);
     card.appendChild(cardBody)
     cardBody.appendChild(cardTitleBody);
@@ -538,8 +549,11 @@ function createCard(cardInfo) {
     cardDescBody.appendChild(cardDesc);
     cardBody.appendChild(cardButton);
 
+    //Sends back the full card
     return card;
 }
+
+//All the cards currently on the projects page.
 let allCards = [
     new gameCard("Pong Remake",
     "Pong was the first game we made at school. It is simple , with most of the code not being written by me.",
@@ -756,15 +770,21 @@ new gameCard("Misc Unity projects",
 
 
 function placeCards(place,order,tag){
+
+    //Checks if you actually gave somewhere to put it
     if(place != null){
+
+    //makes a copy of the cards list
     let currentCards = allCards.slice();
     switch(order){
         case "Recent":
+            //Sorts the list based on the number the card has.
             currentCards.sort(function(first, second) {
             return second.order - first.order;
                 });
             break;
         case "Abc":
+            //Sorts the list based on the alphabet
             currentCards.sort(function (a, b) {
                 if (a.name < b.name) {
                     return -1;
@@ -776,6 +796,10 @@ function placeCards(place,order,tag){
             });
             break;
         case "Tags":
+            console.log("Too early buddy, This just adds all cards for now.")
+            
+            //Yeah dont wanna use this yet.
+            if(false){
             while (place.firstChild) {
                 console.log("Removed " + place.lastChild)
                 place.removeChild(place.lastChild);
@@ -796,26 +820,38 @@ function placeCards(place,order,tag){
                 console.log(tagCards[i]);
             }
             currentCards = tagCards.slice();
+            }
             break;
     }
-    //Recent
-    //Alphabetical
     
+    //Gets the eventual parent of the cards
     const cardContainer = place;
+
     if(cardContainer != null){
         let down = 0;
+
+        //Makes the main row parent
         const cont = document.createElement('div');
         cardContainer.appendChild(cont);
+
+        //Gives it a class
         cont.className = "card-group proCards";
         let currentContainer = cont;
+
+        //A whole bunch of math that makes rows, i goes between 0 and 3, and down goes up by 1 if i reaches 4, which is when i gets set to 0.
         for(let i = 1; i + (down * 4) < currentCards.length + 1; i++){
+
+            //makes and adds the card
             const card = createCard(currentCards[(i+ (down * 4)) - 1])
             currentContainer.appendChild(card);
+
+            //If it cant fit in the row
             if(i == 4){
+                //The recent order only places 1 row of cards, so it sets down to 99999 to end the loop.
                 if(order == "Recent" ){
-                    
                     down = 99999;
                 }else{
+                    //Reset i, give down 1 more, makes a new row container
                     i = 0;
                     down++;
                     const cont = document.createElement('div');
@@ -830,25 +866,31 @@ function placeCards(place,order,tag){
     
 }
 
+//Places the cards
 placeCards(document.getElementById('RecentProj'),"Recent");
 placeCards(document.getElementById('AbcProj'),"Abc");
-placeCards(document.getElementById('TagsProj'),"Tags","2022");
+//placeCards(document.getElementById('TagsProj'),"Tags","2022");
 
 //Checks if the select got changed
 const languageSelectOp = document.getElementById("select");
     languageSelectOp.addEventListener("change",(event) => {
         localStorage.setItem('language',event.target.value)
+        //if it did, set language
         setLanguage(event.target.value)
     });
 
+//Changes the tags for placing cards.
 const tagSelect = document.getElementById("TagSelect");
 if(tagSelect != null){
     tagSelect.addEventListener("change",(event) => {placeCards(document.getElementById('TagsProj'),"Tags",event.target.value)});
 }
 
 const setLanguage = (language) => {
+    //All the types of things the language change affects.
     let allText = document.querySelectorAll('p,span,div,a,option,h1,h2,h3,h4,h5,source');
     let lang = translationEn;
+
+    //Accepted words per language, Then sets lang to their language pack and sets the local language to the selected language. If it cant find what language you are looking for it sets it to english.
     if(language == "Nederlands" || language == "Dutch" || language == "Nl"){
         console.log("I dare ye to turn ye speech to Pirate!")
         localStorage.setItem('language',"Nederlands")
@@ -861,25 +903,36 @@ const setLanguage = (language) => {
         console.log("I dare ye to turn ye speech to Pirate!")
         localStorage.setItem('language',"English")
     }
+
+    //Go through every object
     for(let i = 0; i < allText.length; i++){
         for(let j = 0; j < Object.keys(lang).length; j++){
+
+            //if it can find an object with the same id as an existing id in the pack
             if(Object.keys(lang).includes(allText[i].id)){
                 if(lang[allText[i].id] == "-missing"){
+
+                    //-missing is easier to write down and to find later.
                     allText[i].innerText = "Missing Translation!"
                 }else{
+
+                    //Change the text to whatever is in the id text.
                     allText[i].innerText = lang[allText[i].id]
                 }
             }
         }
     }
 }
+
 //Gets the language to set it after switching pages
 lan = localStorage.getItem('language')
 if(lan != null){
     setLanguage(lan)
+    
     //Sets specifically the select to be the language
     languageSelectOp.value = lan;
 
 }else{
+    //Sets the language to english if you have never visited before. Thanks sjoerd for finding this bug.
     setLanguage('En')
 }
