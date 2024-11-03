@@ -159,7 +159,7 @@ const translationEn = {
 
     //StoryFixer
     StoryName: "StoryFixer",
-    StoryText1: "StoryFixer was a school game jam game. The jam was 5 days long and it's theme was \"Once upon a time\". The game has the player going through different stories to fix some problems. There are 3 different stories with their own goals and gameplay. This game ended up winning the \"Fits in theme\" catogory.",
+    StoryText1: "StoryFixer was a school game jam game. The jam was 5 days long and it's theme was \"Once upon a time\". The game has the player going through different stories to fix some problems. There are 3 different stories with their own goals and gameplay. This game ended up winning the \"Fits in theme\" category.",
     StoryText2: "The game was made with a group of 5, consisting of 3 first years and 2 second years. I mainly recorded the sounds in the games. This includes both sound effects and the music. I also coded in the dialoge system and most of the settings.",
 
     //RealTime
@@ -314,8 +314,8 @@ const translationNl = {
 
     //StoryFixer
     StoryName: "StoryFixer",
-    StoryText1: "-missing",
-    StoryText2: "-missing",
+    StoryText1: "StoryFixer was een school game jam game. De game jam was 5 dagen lang en het thema was \"Once upon a time\". StoryFixer gaat door meerdere verhalen heen om problemen te fixen. Elk verhaal heeft een eigen doel en manier om het te spelen. StoryFixer won in het category \"Past bij het thema\".",
+    StoryText2: "StoryFixer had een groep van 5, met 3 eerste jaars en 2 tweede jaars. Ik was voraal bezig met geluids effecten en muziek. Ik heb ook het dialoog systeem en de setting geprogrammeerd.",
 
     //RealTime
     RealName: "Real Time",
