@@ -319,8 +319,8 @@ const translationNl = {
 
     //RealTime
     RealName: "Real Time",
-    RealText1: "-missing",
-    RealText2: "-missing",
+    RealText1: "Real Time is een RTS (Real Time Strategy) waarin je je eigen leger en basis maakt en daarmee andere mensen aanvalt. Dit spel heeft Multiplayer maar heeft ook Singleplayer. Er zijn twee soorten materialen die je moet verzamelen om gebouwen te bouwen en mensen te spawnen.",
+    RealText2: "Real Time was een school project met een groep van 5 mensen. We mochten voor dit project zelf onze groep maken. We hadden een half school jaar voor dit project met een beoordeling in het midden en aan het einde van het project. We hadden veel moeite met de multiplayer en daardoor mist de game meerder dingen in andere plekken. Dit kwam vooral omdat er eigenlijk maar een van ons was die de multiplayer kon coderen. Persoonlijk werkte ik veel aan gebouwen plaatsen en andere kleine dingen zoals de in-game ui.",
 
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
