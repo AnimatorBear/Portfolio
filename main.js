@@ -154,7 +154,7 @@ const translationEn = {
 
     //Lighten Up!
     LightenName: "Lighten Up!",
-    LightenText1: "Lighten Up! is a global game jam game with the theme of \"Make me laugh\". You are the only happy monkey left in a town of sad monkeys. Laugh at them to make them feel better. You have 3 different laughs: A consisten single shot, an area laugh and a fast shot with a big cooldown because it hurts your voice. Once you make all the monkeys laugh you will get sent to a boss fight with a gorilla. After you make the gorilla laugh you win.",
+    LightenText1: "Lighten Up! is a global game jam game with the theme of \"Make me laugh\". You are the only happy monkey left in a town of sad monkeys. Laugh at them to make them feel better. You have 3 different laughs: A consistent single shot, an area laugh and a fast shot with a big cooldown because it hurts your voice. Once you make all the monkeys laugh you will get sent to a boss fight with a gorilla. After you make the gorilla laugh you win.",
     LightenText2: "This game was made in 2 days with a team of 7. Because this was a global game jam we were allowed to work on it 24/7, unlike the school game jams. Personally I still went home at the end of the days to sleep on my own bed and would return the next day to work on the game more. Due to us having such a big team one big struggle we had was well teamwork and just who was working on what. We also had the issue of going for a story game during a game jam. This is a bad idea since it is basically impossible to get everything you want done in a game jam.",
 
     //StoryFixer
@@ -309,8 +309,8 @@ const translationNl = {
 
     //Lighten Up!
     LightenName: "Lighten Up!",
-    LightenText1: "-missing",
-    LightenText2: "-missing",
+    LightenText1: "Lighten Up! is een global game jam game met het thema \"Make me laugh\". Jij bent de enige vrolijke aap in een dorp van depressieve apen. Lach naar hun om ze beter te laten voelen. Je kan op 3 verschillende manieren lachen: Een sneller te vuren shot, een area lach en een snelle shot met een grote cooldown. Nadat je alle apen hebt laten lachen wordt je naar een eind baas gestuurd. De eind baas is een gorilla en als je die hebt laten lachen win je.",
+    LightenText2: "Deze game was in 2 dagen gemaakt met een groep van 7. Aangezien dit een Global Game Jam was konden we er 24/7 aan werken. Dit kon niet met de school game jams. Persoonlijk ging ik wel naar huis in de avond om gewoon thuis te slapen en in de ochtend kwam ik weer terug. Aangezien we een grote groep hadden was samen werken en wie waar aan werkt. We hadden ook problemen met een verhaal maken voor een game jam. Dit is een slecht idee omdat je bijna nooit alles af krijgt in een game jam.",
 
     //StoryFixer
     StoryName: "StoryFixer",
