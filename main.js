@@ -170,7 +170,7 @@ const translationEn = {
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
     ZTTText1: "Zandvoort Turbo Tour is a racing game made for a Deep Dive. You race against 1 other racer in the racetrack of Zandvoort. You have to switch gears and watch the health of your tires while you are driving. If your wheels break while driving you will get a huge debuff. You can fix your wheels in the pitstop.",
-    ZTTText2: "ZTT was made for a teacher during a Deep Dive at school. We had 1 school week to make the game and the only requirements we had was to make it a racing game. This game was made with a group of 5 people. Personally I worked on controller/wheel support and wheel breaking/varients",
+    ZTTText2: "ZTT was made for a teacher during a Deep Dive at school. We had 1 school week to make the game and the only requirements we had was to make it a racing game. This game was made with a group of 5 people. Personally I worked on controller/wheel support and wheel breaking/varients.",
 }
 
 
@@ -178,7 +178,7 @@ const translationEn = {
 const translationNl = {
 
     // -- Elke pagina
-    navHome: "Huis",
+    navHome: "Home",
     navProj: "Projecten",
     navMe: "Over Mij",
     languageSelectEn: "Engels",
@@ -324,8 +324,8 @@ const translationNl = {
 
     //ZTT
     ZTTName: "Zandvoort Turbo Tour",
-    ZTTText1: "-missing",
-    ZTTText2: "-missing",
+    ZTTText1: "Zandvoort Turbo Tour is een race game dat gemaakt is voor de Deep Dive. Er is een andere ai racer waar jij tegen moet racen. Je moet tussen verschillende schakelingen wisselen en je moet op de health van je wielen letten. Als je wielen kapot gaan ga je een stuk slomer. Je kan je wielen repareren bij de pitstop.",
+    ZTTText2: "ZTT was gemaakt voor een leraar tijdens een Deep Dive op school. We hadden 1 school week om de game te maken en het enige wat moest was dat het een race game was. ZTT was gemaakt door 5 mensen. Persoonlijke werkte ik veel aan dat de game met een controller of wiel werkt en wielen, waaronder dus wielen breken en soorten wielen vallen.",
 }
 
 
