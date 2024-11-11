@@ -17,7 +17,7 @@ class gameCard{
     tags = ["Game","Unity"]
 }
 
-console.log("Site Version: 8 (Full Dutch Support(Apart from About Me, Which is outdated in general.))")
+console.log("Site Version: 9 (About me is updated, But doesnt have dutch yet)")
 
 //English Translation
 const translationEn = {
