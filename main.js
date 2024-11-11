@@ -52,6 +52,10 @@ const translationEn = {
     ItchPageUn: "Itch.io page unavailable!",
     NoDownload: "No download available",
 
+    // -- About Me
+    AboutMe: "I am Rudo Verschuren, a 18 year old Student Game Dev (As of november 2024) who is studying at NoorderPoort in Groningen. I have been programming since September 2022 and have been making games since 2017. Between 2017 and 2021 I mostly worked on showcase games (Games that are just made for the visuals) on Roblox. I usually use Unity but I can also use Godot and Unreal. My main focus is programming but I can also do art and sound if needed.",
+    Phone: "Phone Number:",
+
     // -- Game Cards
     MoreInfo: "More info",
 
@@ -206,6 +210,10 @@ const translationNl = {
     ItchPage: "Itch.io pagina",
     ItchPageUn: "Kon geen Itch.io pagina vinden!",
     NoDownload: "Kan niet gedownload worden",
+
+    // -- About Me
+    AboutMe: "Sorry! Hier nog geen vertaling voor! Pagina bestaat sinds (ongeveer): 10/11/2024, 22:30",
+    Phone: "Telefoon Nummer:",
 
     // -- Game Cards
     MoreInfo: "Meer info",

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+      <nav class="navbar fixed-top navbar-expand-lg bg-dark" style="opacity: 90%;">
         <div class="container-fluid">
           <a class="navbar-brand navbar-name-text" href="../index.html">Rudo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +39,25 @@
       </nav>
     </header>
     <main>
-      <h1 style="margin-bottom: 3%;" class="meContact">hi</h1>
-      <!-- To self: https://codepen.io/sosuke/pen/Pjoqqp -->
-      <img src="../Images/Misc/Circle.png" style="width: 850px; height: 200px;left: 27%; align-items: center;position:absolute;filter: invert(33%) sepia(83%) saturate(6307%) hue-rotate(358deg) brightness(97%) contrast(112%);">
-      <h1 style="left: 49%; align-items: center; position:absolute; color: aqua; top: 21%;">About Me</h1>
-      <div style="background-color: black;">
-        <div class="meContact" style="margin-top: 20%;">
-          <h1 class="cardTitle">Contact Me</h1>
-          <p><span class="importantText">Email:</span> RudoVerschuren@hotmail.com (Please do not email me if you are not looking to employ me)</p>
-          <p><span class="importantText">Phone Number:</span> 06 57096211</p>
+      <h1 style="margin-bottom: 0%;" class="meContact"></h1>
+      <div style="position: relative; text-align: center; margin-bottom: -10%;">
+        <!-- To self: https://codepen.io/sosuke/pen/Pjoqqp -->
+        <img src="../Images/Misc/Circle.png" style="width: 600px; height: 300px; filter: invert(33%) sepia(83%) saturate(6307%) hue-rotate(358deg) brightness(97%) contrast(112%); opacity: 50%;">
+        <h1 id="navMe" style="left: 50%; align-items: center; position:absolute; color: rgb(255, 255, 255); top: 47%; transform: translate(-50%,-50%);font-size: 400%;">About Me</h1>
+      </div>
+      <div style="position: relative; text-align: left;">
+        <img src="../Images/Misc/Circle.png" style="width: 800px; height: 800px; filter: brightness(0) saturate(100%) invert(90%) sepia(83%) saturate(4086%) hue-rotate(102deg) brightness(101%) contrast(101%); opacity: 50%;">
+        <h1 id="AboutMe" style="left: 28%; align-items: center; position:absolute; color: rgb(255, 255, 255); top:50%; transform: translate(-50%,-50%);font-size: 150%; max-inline-size: 30%; text-align: center;">
+          Text didnt load!!!
+        </h1>
+        <img src="../Images/Misc/Circle.png" style="left: 75%; align-items: center; position:absolute; color: rgb(255, 255, 255); top:45%; transform: translate(-50%,-50%); width: 42%; z-index: 0; filter: brightness(0) saturate(100%) invert(13%) sepia(83%) saturate(4757%) hue-rotate(272deg) brightness(109%) contrast(132%);">
+        <img src="../Images/Misc/MeSquared.png" style="left: 75%; align-items: center; position:absolute; color: rgb(255, 255, 255); top:45%; transform: translate(-50%,-50%); border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; width: 30%;">
+      </div>
+      <div style="background-color: black; opacity: 70%;">
+        <div class="meContact" style="margin-top: -5%;">
+          <h1 class="cardTitle">Contact</h1>
+          <p><span class="importantText">Email:</span> RudoVerschuren@hotmail.com</p>
+          <p><span class="importantText" id="Phone">Phone Number:</span> 06 57096211</p>
           <img src="../Images/Misc/guh.png" class="guh" alt="...">
         </div>
       </div>
